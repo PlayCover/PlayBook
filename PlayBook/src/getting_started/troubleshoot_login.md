@@ -18,7 +18,7 @@ __NOTE:__ The instructions below are Genshin Impact specific, but the same proce
     - When you have SIP disabled, type the following:
         - `Command + Space`, type `Terminal` in the search box
     - Type or copy the following command in the terminal window that appears
-        - `sudo nvram boot-args="amfi_get_out_of_my_way=1"`
+        - `sudo nvram boot-args="amfi_get_out_of_my_way=0x1 ipc_control_port_options=0"`
     - If it appears that nothing has happened, this is correct.
     - Restart your Mac
 
@@ -34,9 +34,3 @@ __NOTE:__ The instructions below are Genshin Impact specific, but the same proce
 
 5. Open Genshin
     - You're done! Enjoy playing Genshin!
-
-## Video Instructions
-
-The above steps are shown in the following video:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZRmCjkS3UZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

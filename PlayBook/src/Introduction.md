@@ -10,9 +10,7 @@
     Run iOS apps and games on Apple Silicon Macs with mouse, keyboard and controller support.
     <br />
     <br />
-    <a href="https://www.youtube.com/watch?v=grY63FBJ6N4">Showcase</a>
-    ·
-    <a href="https://github.com/PlayCover/PlayCover/pulls">Contribute</a>
+    <a href="https://github.com/PlayCover/PlayCover">GitHub</a>
     ·
     <a href="https://discord.gg/rMv5qxGTGC">Discord</a>
     ·
