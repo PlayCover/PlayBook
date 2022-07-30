@@ -5,7 +5,7 @@
 # Getting Started
 - [Download & Install PlayCover](./getting_started/download_playcover.md)
 - [Download & Install iOS .ipa files](./getting_started/download_ipa.md)
-- [Troubleshoot App Login](./getting_started/troubleshoot_login.md)
+- [Troubleshoot App Login Issues](./getting_started/troubleshoot_login.md)
 
 # Keymapping
 - [Using & Making Keymaps](./keymapping/using_making_keymaps.md)
