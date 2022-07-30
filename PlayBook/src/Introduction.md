@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/PlayCover/PlayCover">
-    <img src="image/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">PlayCover</h3>
