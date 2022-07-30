@@ -3,9 +3,9 @@
 [Introduction](./Introduction.md)
 
 # Getting Started
-- [Download & Install PlayCover]()
-- [Download & Install .ipas]()
-- [Extra Install Instructions for Genshin Impact]()
+- [Download & Install PlayCover](./getting_started/DownloadPlayCover.md)
+- [Download & Install .ipas](./getting_started/DownloadIPA.md)
+- [Extra Install Instructions for Genshin Impact](./getting_started/GenshinInstall.md)
 
 # Keymapping
 - [Making Your Own Keymap]()
