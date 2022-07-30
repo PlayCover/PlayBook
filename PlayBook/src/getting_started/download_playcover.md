@@ -16,16 +16,23 @@ If you have an Intel Mac, you can explore alternatives like Bootcamp or emulator
 
 You can download stable releases [here](https://github.com/PlayCover/PlayCover/releases), or build from source by following the instructions below.
 
+![Releases](../images/releases.png)
+
 ## Installing
 
 - Drag PlayCover into your Applications folder. 
+![Drag PlayCover in Applications](../images/playcover_dmg.png)
 - Then double click to open and click `Open` on the system prompt. 
+![Open PlayCover](../images/open_playcover.png)
+![Open Prompt](../images/open_prompt.png)
 - When you first run the app you may be met with a screen asking to install `Xcode Command Line Tools`. 
-    - Press `Install` in the app 
+    - Press `Install` in the app
+    ![Install Prompt](../images/install_prompt.png)
     
         __OR__ 
     - In terminal run the command `xcode-select --install`
 - Follow the onscreen instructions to install `Xcode Command Line Tools`.
+![Install System Prompt](../images/install_system_prompt.png)
 
 __NOTE:__ When you start the download for `Xcode Command Line Tools` it may first estimate the time remaining at several hours or days. __This is normal__, it will typically not take anywhere near that time (speed will vary based on your Internet connection). If you're curious why this happens, watch [this](https://youtu.be/iZnLZFRylbs) video by Tom Scott.
 

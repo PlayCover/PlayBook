@@ -3,9 +3,9 @@
 [Introduction](./Introduction.md)
 
 # Getting Started
-- [Download & Install PlayCover](./getting_started/DownloadPlayCover.md)
-- [Download & Install iOS .ipa files](./getting_started/DownloadIPA.md)
-- [Extra Install Instructions for Genshin Impact](./getting_started/GenshinInstall.md)
+- [Download & Install PlayCover](./getting_started/download_playcover.md)
+- [Download & Install iOS .ipa files](./getting_started/download_ipa.md)
+- [Extra Install Instructions for Genshin Impact](./getting_started/genshin_install.md)
 
 # Keymapping
 - [Making Your Own Keymap]()
@@ -21,13 +21,13 @@
 - [Sensitivity]()
 
 # Building from Source
-- [Install Prerequisites]()
+- [Install Prerequisites](./building_from_source/install_prerequisites.md)
 - [Building]()
 
 # Contributing
 - [Forking & Making PRs]()
-- [Code of Conduct]()
+- [Code of Conduct](./contributing/code_of_conduct.md)
 
 ---
 
-[Contributors]()
+[Contributors](./contributors.md)
