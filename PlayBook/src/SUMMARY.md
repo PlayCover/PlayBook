@@ -8,24 +8,24 @@
 - [Extra Install Instructions for Genshin Impact](./getting_started/genshin_install.md)
 
 # Keymapping
-- [Making Your Own Keymap](./keymapping/making_keymaps.md)
-- [Importing & Exporting Keymaps](./keymapping/import_export_keymaps.md)
-- [Common Issues](./keymapping/common_issues.md)
-- [Button Event Reference](./keymapping/button_events.md)
-- [Flow Control Reference](./keymapping/flow_control.md)
+- [Making Your Own Keymap]()
+- [Importing & Exporting Keymaps]()
+- [Common Issues]()
+- [Button Event Reference]()
+- [Flow Control Reference]()
 
 # Settings
-- [Gaming Mode & Adaptive Display](./settings/gaming_mode.md)
-- [Jailbreak Bypass (Alpha)](./settings/jailbreak_bypass.md)
-- [Refresh Rate](./settings/refresh_rate.md)
-- [Sensitivity](./settings/sensitivity.md)
+- [Gaming Mode & Adaptive Display]()
+- [Jailbreak Bypass (Alpha)]()
+- [Refresh Rate]()
+- [Sensitivity]()
 
 # Building from Source
 - [Install Prerequisites](./building_from_source/install_prerequisites.md)
-- [Building](./building_from_source/building.md)
+- [Building]()
 
 # Contributing
-- [Forking & Making PRs](./contributing/forking_making_pr.md)
+- [Forking & Making PRs]()
 - [Code of Conduct](./contributing/code_of_conduct.md)
 
 ---
