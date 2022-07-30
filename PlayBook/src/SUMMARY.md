@@ -5,7 +5,7 @@
 # Getting Started
 - [Download & Install PlayCover](./getting_started/download_playcover.md)
 - [Download & Install iOS .ipa files](./getting_started/download_ipa.md)
-- [Extra Install Instructions for Genshin Impact](./getting_started/genshin_install.md)
+- [Troubleshoot App Login](./getting_started/troubleshoot_login.md)
 
 # Keymapping
 - [Making Your Own Keymap]()

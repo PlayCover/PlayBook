@@ -1,4 +1,8 @@
-# Extra Install Instructions for Genshin Impact
+# Troubleshoot App Login
+
+You may encounter some issue when logging in to some apps and games like Genshin Impact. Follow these instructions to fix that. As always, if you run into issues, ask for help on [Discord](https://discord.gg/rMv5qxGTGC).
+
+__NOTE:__ The instructions below are Genshin Impact specific, but the same process will work for a wide range of apps.
 
 1. Disable SIP
     - First shut down your Mac completely so the screen is black and all other lights are off
@@ -35,4 +39,4 @@
 
 The above steps are shown in the following video:
 
-[How to play Genshin Impact using PlayCover on your M1 Mac (2020 or newer)!](https://www.youtube.com/watch?v=ZRmCjkS3UZE)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZRmCjkS3UZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
