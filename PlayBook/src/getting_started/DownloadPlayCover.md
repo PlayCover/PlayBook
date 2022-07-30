@@ -38,14 +38,3 @@ We host a [Homebrew](https://brew.sh) tap with the [PlayCover cask](https://gith
 To uninstall:
 1. Remove PlayCover using `brew uninstall --cask playcover-community`;
 2. Untap `PlayCover/playcover` with `brew untap PlayCover/playcover`.
-
-
-## Build from Source
-
-You will need:
-
-- [Carthage](https://formulae.brew.sh/formula/carthage)
-- Xcode
-- An Apple ID
-
-Clone this repo, and open it in Xcode. You have to codesign it with your Apple ID in Xcode. You can do this by going to `Navigator > PlayCover > Signing & Capabilities` and setting the `Provising Profile` to None, and setting the `Team` to your personal Apple ID team.
