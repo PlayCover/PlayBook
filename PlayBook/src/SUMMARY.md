@@ -8,11 +8,9 @@
 - [Troubleshoot App Login](./getting_started/troubleshoot_login.md)
 
 # Keymapping
-- [Making Your Own Keymap]()
-- [Importing & Exporting Keymaps]()
-- [Common Issues]()
-- [Button Event Reference]()
-- [Flow Control Reference]()
+- [Using & Making Keymaps](./keymapping/using_making_keymaps.md)
+- [Importing & Exporting Keymaps](./keymapping/import_export_keymaps.md)
+- [Common Issues](./keymapping/common_issues.md)
 
 # Settings
 - [Gaming Mode & Adaptive Display]()

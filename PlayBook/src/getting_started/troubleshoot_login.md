@@ -16,7 +16,7 @@ __NOTE:__ The instructions below are Genshin Impact specific, but the same proce
 
 2. Modify `nvram boot-args`
     - When you have SIP disabled, type the following:
-        - `Command + Space`, type `Terminal` in the search box
+        - `Command (⌘)-Space`, type `Terminal` in the search box
     - Type or copy the following command in the terminal window that appears
         - `sudo nvram boot-args="amfi_get_out_of_my_way=0x1 ipc_control_port_options=0"`
     - If it appears that nothing has happened, this is correct.
@@ -24,7 +24,7 @@ __NOTE:__ The instructions below are Genshin Impact specific, but the same proce
 
 3. Login to Genshin
     - Open Genshin Impact with PlayCover, and you should be greeted with a Login button
-    - Login to your account, then wait until the door appears and quit the game with `Command + Q`. **DO NOT CLICK/ENTER THE DOOR.**
+    - Login to your account, then wait until the door appears and quit the game with `Command (⌘)-Q`. **DO NOT CLICK/ENTER THE DOOR.**
 
 4. Enable SIP
     - Follow the steps in Step 1 to re-enter startup options
