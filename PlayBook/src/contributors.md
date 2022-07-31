@@ -34,3 +34,4 @@ Replace set list with api call like on the website using some Rust
 ## [PlayBook](https://github.com/PlayCover/PlayBook/graphs/contributors)
 - Depal1
 - IsaacMarovitz
+- ZhichGaming
