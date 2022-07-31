@@ -7,4 +7,4 @@ Firstly, you will need Xcode for building PlayCover. Xcode is the editor that Ap
 Now, open Terminal and type or paste in: `brew install carthage`. If it returns something like `command not found: brew`, you probably don't have Homebrew. Follow the instructions [here](https://brew.sh) to install it. 
 
 ## 3. Install SwiftLint
-This step is pretty similar to the previous one, paste `brew install swiftlint` into the terminal after that the previous installation is finished. 
+This step is pretty similar to the previous one, paste `brew install swiftlint` into the Terminal after that the previous installation is finished. 
