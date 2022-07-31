@@ -19,6 +19,7 @@
 - [Sensitivity]()
 
 # Building from Source
+- [Why Build From Source](building_from_source/why_build.md)
 - [Install Prerequisites](./building_from_source/install_prerequisites.md)
 - [Building]()
 
