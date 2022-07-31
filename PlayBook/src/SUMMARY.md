@@ -5,14 +5,12 @@
 # Getting Started
 - [Download & Install PlayCover](./getting_started/download_playcover.md)
 - [Download & Install iOS .ipa files](./getting_started/download_ipa.md)
-- [Extra Install Instructions for Genshin Impact](./getting_started/genshin_install.md)
+- [Troubleshoot App Login Issues](./getting_started/troubleshoot_login.md)
 
 # Keymapping
-- [Making Your Own Keymap]()
-- [Importing & Exporting Keymaps]()
-- [Common Issues]()
-- [Button Event Reference]()
-- [Flow Control Reference]()
+- [Using & Making Keymaps](./keymapping/using_making_keymaps.md)
+- [Importing & Exporting Keymaps](./keymapping/import_export_keymaps.md)
+- [Common Issues](./keymapping/common_issues.md)
 
 # Settings
 - [Gaming Mode & Adaptive Display]()
