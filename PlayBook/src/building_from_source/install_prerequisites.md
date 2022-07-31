@@ -10,4 +10,4 @@ Follow the instructions [here](https://brew.sh) to install Homebrew.
 Now, open Terminal and type `brew install carthage`. 
 
 ## 4. Install SwiftLint
-This step is pretty similar to the previous one, paste `brew install swiftlint` into the Terminal after that the previous installation is finished. 
+This step is pretty similar to the previous one, type `brew install swiftlint` into the Terminal after the previous installation is finished. 
