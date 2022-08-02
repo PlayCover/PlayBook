@@ -29,6 +29,7 @@ jobs:
         rm -rf *
         mv ../book/* .
         echo "docs.playcover.io" > CNAME
+        echo "permalink: pretty" > _config.yml
         git add .
         git commit -m "Deploy $GITHUB_SHA to gh-pages"
         git push --force --set-upstream origin gh-pages
