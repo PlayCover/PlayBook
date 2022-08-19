@@ -4,6 +4,6 @@ language = "en"
 multilingual = false
 src = "src"
 title = "PlayBook"
-[meta]
-name = "theme-color"
-content = "#ff0000"
+
+[output.html]
+additional-js = ["prettylink.js"]
