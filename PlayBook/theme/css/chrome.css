@@ -20,8 +20,8 @@ a > .hljs {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  background-color: var(--menu-bar-bg);
-  border-bottom-color: var(--bg);
+  background-color: var(--sidebar-bg);
+  border-bottom-color: var(--sidebar-border);
   transition: all 0.2s ease-in-out;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -41,8 +41,9 @@ a > .hljs {
   height: var(--menu-bar-height);
 }
 #menu-bar.bordered {
+  background-color: var(--menu-bar-bg);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 20%);
-  border-bottom-color: var(--table-border-color);
+  border-bottom-color: var(--sidebar-border);
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
 }
@@ -66,7 +67,7 @@ a > .hljs {
   border: none;
   background: none;
   padding: 0;
-  color: inherit;
+  color: var(--icon-button-color);
 }
 .icon-button i {
   margin: 0;
@@ -90,7 +91,7 @@ a > .hljs {
 .menu-title {
   display: flex;
   gap: 10px;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   font-weight: 400;
   font-size: 22px;
@@ -102,7 +103,7 @@ a > .hljs {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.menu-title::before {
+.menu-title::after {
   content: "";
   background-image: url("https://playcover.io/static/media/play-cover.0e542de331f48c6bf8cf.png");
   border-radius: 8px;
@@ -303,9 +304,18 @@ mark.fade-out {
 }
 
 .searchbar-outer {
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   max-width: var(--content-max-width);
+}
+.searchbar-outer::before {
+  display: block;
+  content: "Search This Book:";
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--sidebar-part-color);
+  text-transform: uppercase;
 }
 
 #searchbar {

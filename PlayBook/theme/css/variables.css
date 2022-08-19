@@ -133,7 +133,8 @@
   --bg: hsl(226, 23%, 11%);
   --fg: #bcbdd0;
 
-  --menu-bar-bg: rgb(22, 25, 35, 80%);
+  --menu-bar-bg: rgb(40, 45, 63, 80%);
+  --icon-button-color: rgb(255, 255, 255, 80%);
 
   --sidebar-bg: #282d3f;
   --sidebar-fg: #c8c9db;
@@ -146,8 +147,8 @@
 
   --scrollbar: var(--sidebar-fg);
 
-  --icons: #737480;
-  --icons-hover: #b7b9cc;
+  --icons: #9a9bae;
+  --icons-hover: #d9dcf0;
 
   --links: #2b74a5;
 
