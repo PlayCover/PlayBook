@@ -4,3 +4,6 @@ language = "en"
 multilingual = false
 src = "src"
 title = "PlayBook"
+
+[output.html]
+additional-js = ["prettylink.js"]
