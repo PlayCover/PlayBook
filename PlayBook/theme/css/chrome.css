@@ -20,11 +20,6 @@ a > .hljs {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  background-color: var(--sidebar-bg);
-  border-bottom-color: var(--sidebar-border);
-  transition: all 0.2s ease-in-out;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
 }
 #menu-bar.sticky,
 .js #menu-bar-hover-placeholder:hover + #menu-bar,
@@ -39,13 +34,6 @@ a > .hljs {
   position: -webkit-sticky;
   top: 0;
   height: var(--menu-bar-height);
-}
-#menu-bar.bordered {
-  background-color: var(--menu-bar-bg);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 20%);
-  border-bottom-color: var(--sidebar-border);
-  backdrop-filter: blur(10px) saturate(180%);
-  -webkit-backdrop-filter: blur(10px) saturate(180%);
 }
 #menu-bar i,
 #menu-bar .icon-button {
@@ -96,6 +84,7 @@ a > .hljs {
   font-weight: 400;
   font-size: 22px;
   line-height: var(--menu-bar-height);
+  color: transparent;
   text-align: center;
   margin: 0;
   flex: 1;
