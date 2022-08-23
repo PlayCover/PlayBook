@@ -6,6 +6,7 @@
 - [Download & Install PlayCover](./getting_started/download_playcover.md)
 - [Download & Install iOS .ipa files](./getting_started/download_ipa.md)
 - [Troubleshoot App Login Issues](./getting_started/troubleshoot_login.md)
+- [Alternate Xcode Command Line Tools Installation Methods](./getting_started/alt_xcode_cli_install.md)
 
 # Keymapping
 - [Using & Making Keymaps](./keymapping/using_making_keymaps.md)
@@ -21,7 +22,7 @@
 # Building from Source
 - [Why Build From Source](building_from_source/why_build.md)
 - [Install Prerequisites](./building_from_source/install_prerequisites.md)
-- [Building]()
+- [Building](./building_from_source/building.md)
 
 # Contributing
 - [Forking & Making PRs]()
