@@ -1,24 +1,21 @@
-<br />
-<div align="center">
+<div style="display: flex; margin-left: -8px;">
   <a href="https://github.com/PlayCover/PlayCover">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
+  <h1 style="padding-left: 2.5%;">PlayCover</h1>
+</div>
 
-  <h3 align="center">PlayCover</h3>
-
-  <p align="center">
-    Run iOS apps and games on Apple Silicon Macs with mouse, keyboard and controller support.
-    <br />
-    <br />
+<div style="display: flex; gap: 2.5%;">
     <a href="https://github.com/PlayCover/PlayCover">GitHub</a>
     ·
     <a href="https://discord.gg/rMv5qxGTGC">Discord</a>
     ·
     <a href="https://playcover.io/">Website</a>
-  </p>
 </div>
 
-# **Docs are in progress watch this space!**
+<p>
+  Run iOS apps and games on Apple Silicon Macs with mouse, keyboard and controller support.
+</p>
 
 ## About The Project
 

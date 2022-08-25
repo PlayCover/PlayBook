@@ -97,8 +97,7 @@ a > .hljs {
 }
 .menu-title::after {
   content: "";
-  background-image: url("https://playcover.io/static/media/play-cover.0e542de331f48c6bf8cf.png");
-  border-radius: 8px;
+  background-image: url("../favicon.png");
   height: 34px;
   width: 34px;
   background-size: 34px 34px;
