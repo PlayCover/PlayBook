@@ -21,6 +21,7 @@ a>.hljs {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #menu-bar.sticky,
@@ -562,59 +563,4 @@ ul#searchresults span.teaser em {
     list-style: none outside none;
     padding-left: 20px;
     line-height: 1.9em;
-}
-
-/* Theme Menu Popup */
-
-.theme-popup {
-    position: absolute;
-    left: 10px;
-    top: var(--menu-bar-height);
-    z-index: 1000;
-    border-radius: 4px;
-    font-size: 0.7em;
-    color: var(--fg);
-    background: var(--theme-popup-bg);
-    border: 1px solid var(--theme-popup-border);
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: none;
-}
-
-.theme-popup .default {
-    color: var(--icons);
-}
-
-.theme-popup .theme {
-    width: 100%;
-    border: 0;
-    margin: 0;
-    padding: 2px 10px;
-    line-height: 25px;
-    white-space: nowrap;
-    text-align: left;
-    cursor: pointer;
-    color: inherit;
-    background: inherit;
-    font-size: inherit;
-}
-
-.theme-popup .theme:hover {
-    background-color: var(--theme-hover);
-}
-
-.theme-popup .theme:hover:first-child,
-.theme-popup .theme:hover:last-child {
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit;
-}
-
-#theme-toggle,
-#print-button {
-    display: none;
-    pointer-events: none;
-    cursor: default;
-    user-select: none;
-    -webkit-user-select: none;
 }
