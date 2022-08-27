@@ -15,6 +15,7 @@ jobs:
       run: |
         mkdir mdbook
         curl -sSL https://github.com/PlayCover/mdBook/releases/download/v0.4.21/mdbook-v0.4.21-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=./mdbook
+        chmod +x ./mdbook/mdbook
         echo `pwd`/mdbook >> $GITHUB_PATH
     - name: Deploy GitHub Pages
       run: |
