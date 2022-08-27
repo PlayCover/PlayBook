@@ -1,9 +1,17 @@
 [book]
+title = "PlayBook"
 authors = ["PlayCover Community"]
+src = "src"
 language = "en"
 multilingual = false
-src = "src"
-title = "PlayBook"
 
 [output.html]
+preferred-dark-theme = "dark"
 additional-js = ["prettylink.js"]
+git-repository-url = "https://github.com/PlayCover/PlayBook"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/PlayCover/PlayBook/edit/master/PlayBook/{path}"
+nput-404 = "404.md"
+
+[output.html.print]
+enable = false
