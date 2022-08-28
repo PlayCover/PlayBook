@@ -11,83 +11,76 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --bg: hsl(0, 0%, 100%);
-        --fg: hsl(0, 0%, 0%);
+        --bg: #eff1f5;
+        --fg: #4c4f69;  
 
-        --sidebar-bg: #fafafa;
-        --sidebar-fg: hsl(0, 0%, 0%);
-        --sidebar-non-existant: #aaaaaa;
-        --sidebar-active: #1f1fff;
-        --sidebar-spacer: #f4f4f4;
+        --sidebar-bg: #e6e9ef;
+        --sidebar-fg: #4c4f69;
+        --sidebar-non-existant: #9ca0b0;
+        --sidebar-active: #dc8a78;
+        --sidebar-spacer: #9ca0b0;
 
-        --scrollbar: #8F8F8F;
+        --scrollbar: #9ca0b0;
 
-        --icons: #747474;
-        --icons-hover: #000000;
+        --icons: #9ca0b0;
+        --icons-hover: #8c8fa1;
 
-        --links: #20609f;
+        --links: #1e66f5;
 
-        --inline-code-color: #301900;
+        --inline-code-color: #fe640b;
 
-        --theme-popup-bg: #fafafa;
-        --theme-popup-border: #cccccc;
-        --theme-hover: #e6e6e6;
+        --quote-bg: #e6e9ef;
+        --quote-border: #dce0e8;
 
-        --quote-bg: hsl(197, 37%, 96%);
-        --quote-border: hsl(197, 37%, 91%);
+        --table-border-color: #dce0e8;
+        --table-header-bg: #e6e9ef;
+        --table-alternate-bg: #dce0e8;
 
-        --table-border-color: hsl(0, 0%, 95%);
-        --table-header-bg: hsl(0, 0%, 80%);
-        --table-alternate-bg: hsl(0, 0%, 97%);
-
-        --searchbar-border-color: #aaa;
-        --searchbar-bg: #fafafa;
-        --searchbar-fg: #000;
-        --searchbar-shadow-color: #aaa;
-        --searchresults-header-fg: #666;
-        --searchresults-border-color: #888;
-        --searchresults-li-bg: #e4f2fe;
-        --search-mark-bg: #a2cff5;
+        --searchbar-border-color: #dce0e8;
+        --searchbar-bg: #e6e9ef;
+        --searchbar-fg: #4c4f69;
+        --searchbar-shadow-color: #dce0e8;
+        --searchresults-header-fg: #4c4f69;
+        --searchresults-border-color: #dce0e8;
+        --searchresults-li-bg: #eff1f5;
+        --search-mark-bg: #fe640b;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg: hsl(226, 23%, 11%);
-        --fg: #bcbdd0;
-        --menu-bar-bg: rgb(40, 45, 63, 80%);
-        --icon-button-color: rgb(255, 255, 255, 80%);
-        --sidebar-bg: #282d3f;
-        --sidebar-fg: #c8c9db;
-        --sidebar-part-color: rgb(255, 255, 255, 60%);
-        --sidebar-part-border-color: rgb(255, 255, 255, 20%);
-        --sidebar-border: #484e65;
-        --sidebar-non-existant: #505274;
-        --sidebar-active: #2b79a2;
-        --sidebar-spacer: #2d334f;
-        --scrollbar: var(--sidebar-fg);
-        --icons: #9a9bae;
-        --icons-hover: #d9dcf0;
-        --links: #2b74a5;
-        --inline-code-color: #c5c8c6;
-        --theme-popup-bg: #161923;
-        --theme-popup-border: #737480;
-        --theme-hover: #282e40;
-        --quote-bg: hsl(226, 15%, 17%);
-        --quote-border: hsl(226, 15%, 22%);
-        --table-border-color: hsl(226, 23%, 16%);
-        --table-header-bg: hsl(226, 23%, 31%);
-        --table-alternate-bg: hsl(226, 23%, 14%);
-        --searchbar-border-color: #484e65;
-        --searchbar-placeholder-color: rgb(255, 255, 255, 40%);
-        --searchbar-bg: #282d3f;
-        --searchbar-fg: #fff;
-        --searchbar-border-active: #2b74a5;
-        --searchbar-shadow-active: rgb(43, 116, 165, 20%);
-        --searchbar-shadow-color: rgb(0, 0, 0, 10%);
-        --searchresults-header-fg: #5f5f71;
-        --searchresults-border-color: #5c5c68;
-        --searchresults-li-bg: #242430;
-        --search-mark-bg: #a2cff5;
+        --bg: #303446;
+        --fg: #c6d0f5;  
+
+        --sidebar-bg: #292c3c;
+        --sidebar-fg: #c6d0f5;
+        --sidebar-non-existant: #737994;
+        --sidebar-active: #f2d5cf;
+        --sidebar-spacer: #737994;
+
+        --scrollbar: #737994;
+
+        --icons: #737994;
+        --icons-hover: #838ba7;
+
+        --links: #8caaee;
+
+        --inline-code-color: #ef9f76;
+
+        --quote-bg: #292c3c;
+        --quote-border: #232634;
+
+        --table-border-color: #232634;
+        --table-header-bg: #292c3c;
+        --table-alternate-bg: #232634;
+
+        --searchbar-border-color: #232634;
+        --searchbar-bg: #292c3c;
+        --searchbar-fg: #c6d0f5;
+        --searchbar-shadow-color: #232634;
+        --searchresults-header-fg: #c6d0f5;
+        --searchresults-border-color: #232634;
+        --searchresults-li-bg: #303446;
+        --search-mark-bg: #ef9f76;
     }
 }
