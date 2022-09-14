@@ -30,7 +30,9 @@ __NOTE:__ The instructions below are Genshin Impact specific, but the same proce
     - Follow the steps in Step 1 to re-enter startup options
     - When `Utilities` appears in the menu bar, click on it and choose `Terminal`
     - In the terminal window type `csrutil enable` and type your password when prompted
-    - Once `Successfully enabled System Integrity Protection` appears, restart your Mac
+    - Once `Successfully enabled System Integrity Protection` appears, restart your Mac[^note]
+
+[^note]: The changes we made with the `nvram boot-args` command eariler will be disabled when SIP is on, however macOS will remember that we made those changes and will apply them the next time you disable SIP. Fully reverting these changes isn't neccassary for most users, but you can do so by running `sudo nvram boot-args=""` in a macOS terminal. 
 
 5. Open Genshin
     - You're done! Enjoy playing Genshin!
