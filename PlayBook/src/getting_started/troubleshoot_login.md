@@ -1,6 +1,6 @@
 # Troubleshoot App Login Issues
 
-You may encounter some issues when logging in to some apps and games like Genshin Impact. Follow these instructions to fix that. As always, if you run into issues, ask for help on [Discord](https://discord.gg/rMv5qxGTGC). 
+You may encounter some issues when logging in to some apps and games like Genshin Impact. Follow these instructions to fix that. As always, if you run into issues, ask for help on [Discord](https://discord.gg/rMv5qxGTGC).
 
 __NOTE:__ The instructions below are Genshin Impact specific, but the same process will work for a wide range of apps.
 
@@ -37,4 +37,4 @@ __NOTE:__ The instructions below are Genshin Impact specific, but the same proce
 5. Open Genshin
     - You're done! Enjoy playing Genshin!
 
-If you've already tried this and it did not work, try these boot-args: `sudo nvram boot-args="amfi_get_out_of_my_way=1"` instead of the ones below, try deleting any items related to your game in Keychain Access and try enabling jailbreak detection bypass in your app settings inside of PlayCover. If your app still does not work, please open a app/game support request [here](https://github.com/PlayCover/PlayCover/issues/new/choose). 
+If you've already tried this and it did not work, try `sudo nvram boot-args="amfi_get_out_of_my_way=1"` as boot-args instead of the ones above. Also try deleting any items related to your game in Keychain Access and try enabling jailbreak detection bypass in your app settings. If your app still does not work, please open a app/game support request [here](https://github.com/PlayCover/PlayCover/issues/new/choose).
