@@ -37,4 +37,4 @@ __NOTE:__ The instructions below are Genshin Impact specific, but the same proce
 5. Open Genshin
     - You're done! Enjoy playing Genshin!
 
-If you've already tried this and it did not work, try `sudo nvram boot-args="amfi_get_out_of_my_way=1"` as boot-args instead of the ones above. Also try deleting any items related to your game in Keychain Access and try enabling jailbreak detection bypass in your app settings. If your app still does not work, please open a app/game support request [here](https://github.com/PlayCover/PlayCover/issues/new/choose).
+If you've already tried this and it did not work, try `sudo nvram boot-args="amfi_get_out_of_my_way=1"` as boot-args instead of the ones above. Also try deleting any items related to your game in Keychain Access and try enabling jailbreak detection bypass in your app settings. If your app still does not work, please open an app/game support request [here](https://github.com/PlayCover/PlayCover/issues/new/choose) after searching for similar issues.
