@@ -5,7 +5,7 @@
 #searchresults a,
 .content a:link,
 a:visited,
-a>.hljs {
+a > .hljs {
     color: var(--links);
 }
 
@@ -22,10 +22,11 @@ a>.hljs {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 4px 0;
 }
 
 #menu-bar.sticky,
-.js #menu-bar-hover-placeholder:hover+#menu-bar,
+.js #menu-bar-hover-placeholder:hover + #menu-bar,
 .js #menu-bar:hover,
 .js.sidebar-visible #menu-bar {
     position: -webkit-sticky;
@@ -42,20 +43,27 @@ a>.hljs {
 
 #menu-bar i,
 #menu-bar .icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
     position: relative;
-    padding: 0 8px;
+    color: var(--icon-button-color);
     z-index: 10;
-    line-height: var(--menu-bar-height);
+    height: 40px;
+    width: 40px;
     cursor: pointer;
-    transition: color 0.5s;
+    transition: all 0.2s;
+}
+#menu-bar i:hover,
+#menu-bar .icon-button:hover {
+    background: var(--icon-button-hover-color);
 }
 
-@media only screen and (max-width: 420px) {
-
-    #menu-bar i,
-    #menu-bar .icon-button {
-        padding: 0 5px;
-    }
+hr {
+    border: none;
+    height: 1px;
+    background: var(--hr-bg);
 }
 
 .icon-button {
@@ -70,6 +78,7 @@ a>.hljs {
 }
 
 .right-buttons {
+    display: flex;
     margin: 0 15px;
 }
 
@@ -207,18 +216,23 @@ a>.hljs {
 
 /* Inline code */
 
-:not(pre)>.hljs {
+:not(pre) > .hljs {
     display: inline;
     padding: 0.1em 0.3em;
     border-radius: 3px;
 }
 
-:not(pre):not(a)>.hljs {
+:not(pre):not(a) > .hljs {
     color: var(--inline-code-color);
     overflow-x: initial;
 }
 
-a:hover>.hljs {
+.hljs {
+    background: var(--hljs-background-color) !important;
+    color: var(--hljs-text-color) !important;
+}
+
+a:hover > .hljs {
     text-decoration: underline;
 }
 
@@ -226,7 +240,7 @@ pre {
     position: relative;
 }
 
-pre>.buttons {
+pre > .buttons {
     position: absolute;
     z-index: 100;
     right: 0px;
@@ -241,22 +255,22 @@ pre>.buttons {
     transition: visibility 0.1s linear, opacity 0.1s linear;
 }
 
-pre:hover>.buttons {
+pre:hover > .buttons {
     visibility: visible;
     opacity: 1;
 }
 
-pre>.buttons :hover {
+pre > .buttons :hover {
     color: var(--sidebar-active);
     border-color: var(--icons-hover);
     background-color: var(--theme-hover);
 }
 
-pre>.buttons i {
+pre > .buttons i {
     margin-left: 8px;
 }
 
-pre>.buttons button {
+pre > .buttons button {
     cursor: inherit;
     margin: 0px 5px;
     padding: 3px 5px;
@@ -273,13 +287,13 @@ pre>.buttons button {
 }
 
 @media (pointer: coarse) {
-    pre>.buttons button {
+    pre > .buttons button {
         /* On mobile, make it easier to tap buttons. */
         padding: 0.3rem 1rem;
     }
 }
 
-pre>code {
+pre > code {
     padding: 1rem;
 }
 
@@ -292,7 +306,7 @@ pre>code {
     padding: 0rem 0rem;
 }
 
-pre>.result {
+pre > .result {
     margin-top: 10px;
 }
 
@@ -317,35 +331,41 @@ mark.fade-out {
 }
 
 .searchbar-outer {
-    margin-top: 20px;
+    z-index: 1000;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     max-width: var(--content-max-width);
+    border-radius: 8px;
 }
 
 .searchbar-outer::before {
-    display: block;
-    content: "Search This Book:";
-    font-size: 10px;
-    font-weight: 500;
-    color: var(--sidebar-part-color);
-    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    content: "\f002";
+    font-family: "FontAwesome";
+    color: var(--searchbar-icon-color);
 }
 
 #searchbar {
     width: 100%;
-    margin: 5px auto 0px auto;
     padding: 10px 16px;
     border: 1px solid var(--searchbar-border-color);
+    box-shadow: 0 1px 1px var(--searchbar-shadow-color);
     font-family: inherit;
     font-size: 14px;
     border-radius: 8px;
     background-color: var(--searchbar-bg);
-    box-shadow: 0 1px 2px var(--searchbar-shadow-color);
+    padding-left: 36px;
     outline: none;
     color: var(--searchbar-fg);
 }
-
 #searchbar:focus,
 #searchbar.active {
     border-color: var(--searchbar-border-active);
@@ -360,7 +380,7 @@ mark.fade-out {
     align-items: center;
     gap: 8px;
     display: flex;
-    color: var(--sidebar-part-color);
+    color: var(--sidebar-part-text-color);
     font-weight: 600;
     font-size: 10px;
     text-transform: uppercase;
@@ -371,7 +391,7 @@ mark.fade-out {
     flex-grow: 1;
     content: "";
     height: 1px;
-    background: var(--sidebar-part-border-color);
+    background: var(--sidebar-part-bg-color);
 }
 
 .searchresults-outer {
@@ -422,7 +442,7 @@ ul#searchresults span.teaser em {
     overscroll-behavior-y: contain;
     background-color: var(--sidebar-bg);
     border-right: 1px solid var(--sidebar-border);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 40%);
+    box-shadow: 1px 1px 1px var(--sidebar-shadow);
     color: var(--sidebar-fg);
 }
 
@@ -449,7 +469,7 @@ ul#searchresults span.teaser em {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 10px 20px;
+    padding: 10px 14px;
 }
 
 .sidebar .sidebar-resize-handle {
@@ -492,26 +512,45 @@ ul#searchresults span.teaser em {
 }
 
 .chapter li {
-    display: flex;
+    display: block;
     color: var(--sidebar-non-existant);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    cursor: default;
 }
 
-.chapter li a {
+.chapter li a,
+.chapter li div {
     display: block;
-    padding: 0;
+    padding: 8px 14px;
+    border-radius: 6px;
     text-decoration: none;
+    transition: all 0.2s;
+}
+.chapter li a {
     color: var(--sidebar-fg);
 }
 
 .chapter li a:hover {
-    color: var(--sidebar-active);
+    background: var(--sidebar-hover-color);
+}
+
+.chapter a strong[aria-hidden="true"] {
+    opacity: 0.5;
 }
 
 .chapter li a.active {
-    color: var(--sidebar-active);
+    background-color: var(--sidebar-active);
+    color: var(--sidebar-text-active);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 10%);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 10%);
+}
+.chapter a.active strong[aria-hidden="true"] {
+    opacity: 1;
 }
 
-.chapter li>a.toggle {
+.chapter li > a.toggle {
     cursor: pointer;
     display: block;
     margin-left: auto;
@@ -520,21 +559,20 @@ ul#searchresults span.teaser em {
     opacity: 0.68;
 }
 
-.chapter li>a.toggle div {
+.chapter li > a.toggle div {
     transition: transform 0.5s;
 }
 
 /* collapse the section */
-.chapter li:not(.expanded)+li>ol {
+.chapter li:not(.expanded) + li > ol {
     display: none;
 }
 
 .chapter li.chapter-item {
     line-height: 1.5em;
-    margin-top: 0.6em;
 }
 
-.chapter li.expanded>a.toggle div {
+.chapter li.expanded > a.toggle div {
     transform: rotate(90deg);
 }
 
@@ -548,8 +586,7 @@ ul#searchresults span.teaser em {
     background-color: var(--sidebar-spacer);
 }
 
-@media (-moz-touch-enabled: 1),
-(pointer: coarse) {
+@media (-moz-touch-enabled: 1), (pointer: coarse) {
     .chapter li a {
         padding: 5px 0;
     }
