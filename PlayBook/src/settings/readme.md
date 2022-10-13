@@ -1,6 +1,6 @@
-## Settings
+# Settings
 
--   Gaming Mode
--   Jailbreak Bypass
--   Refresh Rate
--   Senstivity
+- Gaming Mode
+- Jailbreak Bypass
+- Refresh Rate
+- Senstivity
