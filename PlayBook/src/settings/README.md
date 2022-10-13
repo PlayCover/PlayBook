@@ -1,6 +1,6 @@
 ## Settings
 
-- Gaming Mode(https://docs.playcover.io/keymapping/)(`git push origin feature/AmazingFeature`)
+- https://docs.playcover.io/keymapping/ &mdash; `Gaming Mode`
 - Jailbreak Bypass
 - Refresh Rate
 - Senstivity
