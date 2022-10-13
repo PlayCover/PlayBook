@@ -1,6 +1,6 @@
 ## Settings
 
-- https://docs.playcover.io/keymapping/ &mdash; `Gaming Mode`
-- Jailbreak Bypass
-- Refresh Rate
-- Senstivity
+- UNFINISHED &mdash; `Gaming Mode`
+- UNFINISHED &mdash; `Jailbreak Bypass`
+- UNFINISHED &mdash; `Refresh Rate`
+- UNFINISHED &mdash; `Sensitivity`
