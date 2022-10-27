@@ -8,7 +8,7 @@ If you were using one of these versions, you don't need to reinstall your apps a
 You can open your settings by selecting on an app and clicking on the gear button on top. You can also get to this screen by right clicking on an app and clicking `Settings`. 
 
 ### Changing your performance settings
-If you change your tab to `Graphics` in your app settings, you should see a few options. It is recommended to use `iPad Pro M1` as the iOS device for the best graphics, but if your Mac can't handle it and keymapping stutters, you can use one of the iPhones instead. 
+If you change your tab to `Graphics` in your app settings, you should see a few options. It is recommended to use `iPad Pro M1` as the iOS device for the best graphics, but if your Mac can't handle it and keymapping stutters, you can use one of the iPhones or a weaker iPad instead. 
 
 ### Changing your resolution settings
 You may need to change your resolution depending on what app you are using. Auto works fine for most games and other apps usually use App Default or Custom. If you are using a set resolution such as 1080p, you might need to change the aspect ratio depending on your monitor. 
