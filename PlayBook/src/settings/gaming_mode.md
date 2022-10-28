@@ -1,1 +1,0 @@
-# Gaming Mode & Adaptive Display

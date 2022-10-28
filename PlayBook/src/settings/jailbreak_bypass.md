@@ -1,1 +1,1 @@
-# Jailbreak Bypass (Alpha)
+# Jailbreak Bypass
