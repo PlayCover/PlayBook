@@ -1,47 +1,46 @@
 # Building
 If you haven't already, follow the instructions in [Install Prerequisites](./install_prerequisites.md).
 
-# Step 1: Getting the Source
----
+## 1. Getting the Source
+
 You have a couple of options to go about this:
 
-### Option 1: `git clone`
-Open a terminal, and run the following commands:
-```
-git clone https://github.com/PlayCover/PlayCover.git
-```
+1. `git clone`
+    Open a terminal, and run the following commands:
+    ```
+    git clone https://github.com/PlayCover/PlayCover.git
+    ```
 
-That will download the code to a PlayCover folder in your current working directory. (If you don't know where that is, run `pwd`).
+    That will download the code to a PlayCover folder in your current working directory. (If you don't know where that is, run `pwd`).
 
-### Option 2: a Git GUI client (Recommended for more serious development)
-Git is a complex program, and a GUI can help you deal it's complexities. A couple of good clients are [Tower](https://www.git-tower.com/) and [GitKraken](https://www.gitkraken.com/).
+2. A Git GUI client (Recommended for more serious development)
+    Git is a complex program, and a GUI can help you deal it's complexities. A couple of good clients are [Tower](https://www.git-tower.com/) and [GitKraken](https://www.gitkraken.com/).
 
-We recommend Tower more than GitKraken, but either one is fine. Both are available for free through the [Github Student Developer Pack](https://education.github.com/pack)
+    We recommend Tower more than GitKraken, but either one is fine. Both are available for free through the [Github Student Developer Pack](https://education.github.com/pack).
 
-Please refer to your client's documentation for how to clone a repo:
+    Please refer to your client's documentation for how to clone a repo:
 
-[Tower docs](https://www.git-tower.com/help/guides/manage-repositories/clone-remote-repository/)
+    [Tower docs](https://www.git-tower.com/help/guides/manage-repositories/clone-remote-repository/)
 
-[GitKraken docs](https://help.gitkraken.com/gitkraken-client/open-clone-init/#cloning-an-existing-project)
+    [GitKraken docs](https://help.gitkraken.com/gitkraken-client/open-clone-init/#cloning-an-existing-project)
 
-### Option 3: Downloading a ZIP (discouraged)
-This option is discouraged because it does not download the git repo, only the source. You will not be able to contribute to PlayCover using this option.
+3. Downloading a ZIP (discouraged)
+    This option is discouraged because it does not download the git repo, only the source. You will not be able to contribute to PlayCover using this option.
 
-On PlayCover's GitHub Repo, click the green `<>` or `Code` button, located near the bottom right of the screenshot below.
+    On PlayCover's GitHub Repo, click the green `<>` or `Code` button, located near the bottom right of the screenshot below.
 
-![](../images/github_code_button.png)
+    ![](../images/github_code_button.png)
 
-In the sheet that appears, click the "Download ZIP" button near the bottom.
+    In the sheet that appears, click the "Download ZIP" button near the bottom.
 
-# Step 2: Apple Developer Account
----
+## 2. Apple Developer Account
 
 In order to build PlayCover, you'll need a free Apple Developer Account. Head on over to [developer.apple.com/account](https://developer.apple.com/account) to sign up. (You will use your pre-existing Apple ID).
 
 DO NOT start to enroll in the Apple Developer Program, as that is not required to build PlayCover, and stating to enroll can lock your account for an indeterminate amount of time.
 
-# Step 3: Adding your Apple ID to Xcode
----
+## 3. Adding your Apple ID to Xcode
+
 Open Xcode, and then select `Xcode -> Preferences...` in the menu bar.
 
 ![]()
@@ -56,8 +55,8 @@ When asked, select to add an "Apple ID"
 
 Then, sign in with your Apple ID like normal.
 
-# Step 4: Adjusting Signing Settings
----
+## 4. Adjusting Signing Settings
+
 Find the `PlayCover.xcodeproj` file, located in the source folder that you downloaded in step 1, and open it in Xcode. A window like the one below should appear.
 
 ![]()
@@ -76,8 +75,8 @@ Enable the "Automatically Manage Signing" option, and change the current signing
 
 You may have to repeat the last step for the Release signing settings, if they appear.
 
-# Step 5: Resolving Package Caches
----
+## 5. Resolving Package Caches
+
 Sometimes the swift package manager doesn't want to, so you may have to clear the package cache. You can do this by selecting `File -> Swift Package Manager -> Clear Package Cache`.
 
 ![]()
@@ -86,9 +85,9 @@ Then wait for the packages to download. You can see them in the left panel, belo
 
 ![]()
 
-# Step 6: Actually Building the Thing
----
-In the Top left corner of the Xcode Project, click on the play button.
+## 6. Actually Building the Thing
+
+In the top left corner of the Xcode Project, click on the play button.
 
 ![]()
 

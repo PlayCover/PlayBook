@@ -8,8 +8,6 @@ Keymaps can be imported and exported to easily share them with other PlayCover u
 2. Open PlayCover and right click the app you wish to import the keymap to
 3. Click on `Import keymapping`
 4. Select the previously downloaded `.playmap` file
-5. Quit and reopen the app
-    - This step is required for the newly imported keymapping to work
 
 ## Exporting Keymaps
 

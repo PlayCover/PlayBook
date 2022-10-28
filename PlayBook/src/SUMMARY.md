@@ -25,12 +25,11 @@
 
 # Building from Source
 
--   [Why Build From Source](building_from_source/why_build.md)
+-   [Why Build From Source?](building_from_source/why_build.md)
 -   [Install Prerequisites](./building_from_source/install_prerequisites.md)
 -   [Building](./building_from_source/building.md)
 
 # Contributing
 
--   [Forking & Making PRs]()
+-   [Forking & Making PRs](./contributing/forking_making_pr.md)
 -   [Code of Conduct](./contributing/code_of_conduct.md)
--   [Contributors](./contributors.md)

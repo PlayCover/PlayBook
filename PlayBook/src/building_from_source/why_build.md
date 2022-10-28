@@ -1,4 +1,7 @@
-# Why building from source?
-Building from source is very confusing for people with little to no knowledge about making apps, therefore, is not recommended for those people. If you just want access to new features before they come out on a stable version, you can check out nightly builds [here](https://github.com/PlayCover/PlayCover/actions/workflows/2.nightly_release.yml?query=is%3Asuccess++).
+# Why Build from Source?
 
-However, if you want to contribute code to PlayCover, continue on to [Install Prerequisites](./install_prerequisites.md).
+Building from source is largely intended for developers who wish to make contributions to PlayCover, and is not recommend for those without prior experience making apps. 
+
+If you want access to features before they are released, you can check out nightly builds [here](https://nightly.link/PlayCover/PlayCover/workflows/2.nightly_release/develop).
+
+If you want to contribute code to PlayCover, continue on to [Install Prerequisites](./install_prerequisites.md).

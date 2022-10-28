@@ -17,6 +17,7 @@ If you have an Intel Mac, you can explore alternatives like Bootcamp or emulator
 You can download stable releases [here](https://github.com/PlayCover/PlayCover/releases), or build from source by following the instructions below.
 
 ![Releases](../images/releases.png)
+> Note: the release number in the image may not match the most recent release.
 
 ## Installing
 
