@@ -33,4 +33,3 @@
 
 -   [Forking & Making PRs]()
 -   [Code of Conduct](./contributing/code_of_conduct.md)
--   [Contributors](./contributors.md)
