@@ -6,4 +6,4 @@ Occasionally, keymaps may become unresponsive. This may occur if you use `Comman
 2. Use `Command (⌘)-K` to open the Keymapping Editor, and then close it again with `Command (⌘)-K`
 3. If the above doesn't work, restart the app
 
-__NOTE:__ When using shortcuts like `Command (⌘)-Q` to exit apps, the shortcut will not register with keymapping enabled. It may also result in unintended button presses if `Q` is mapped. Before quitting apps with shortcuts, you should therefore release your mouse and disable keymapping with `Option (⌥)`
+> __NOTE:__ When using shortcuts like `Command (⌘)-Q` to exit apps, the shortcut will not register with keymapping enabled. It may also result in unintended button presses if `Q` is mapped. Before quitting apps with shortcuts, you should therefore release your mouse and disable keymapping with `Option (⌥)`

@@ -11,7 +11,7 @@ There are many sources online for decrypted .ipa files. Listed below are some re
 
     Decrypted .ipa files can be found in `#decrypted-ipas` channel. Popular .ipa files like Genshin Impact will be pinned. If the App you're looking for hasn't been decrypted, you can request it.
 
-    __NOTE:__ The Appocalypse Discord does not condone piracy and, as a result, will NOT decrypt paid apps
+    > __NOTE:__ The Appocalypse Discord does not condone piracy and, as a result, will NOT decrypt paid apps.
 
 3. External Websites
     
@@ -19,13 +19,13 @@ There are many sources online for decrypted .ipa files. Listed below are some re
     - <https://ipa.decrypt.day>
     - <https://armconverter.com/decryptedappstore>
 
-    __NOTE:__ These are external sites, we cannot verify the quality or safety of these downloads. Use at your own risk.
+    > __NOTE:__ These are external sites, we cannot verify the quality or safety of these downloads. Use at your own risk.
 
 4. Decrypt Yourself
 
     You can decrypt your own .ipa files including of paid apps you've already bought using a Jailbroken iOS device. There are many guides on how to do this online.
 
-    __NOTE:__ This will require some technical knowledge, will likely invalidate your warranty, and may permanently damage your device.
+    > __NOTE:__ This will require some technical knowledge, will likely invalidate your warranty, and may permanently damage your device.
 
 ## Installing
 
@@ -35,4 +35,4 @@ If you run into issues installing, check that `Xcode Command Line Tools` are ins
 
 Some apps like Genshin Impact will require further and more technical setup to get working. You can find those instructions [here](./troubleshoot_login.md).
 
-__NOTE:__ Not all apps are supported. If you run into issues you can ask for help on the [Discord](https://discord.gg/rMv5qxGTGC).
+> __NOTE:__ Not all apps are supported. If you run into issues you can ask for help on the [Discord](https://discord.gg/rMv5qxGTGC).

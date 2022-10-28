@@ -18,10 +18,10 @@
 
 # Settings
 
--   [Gaming Mode & Adaptive Display]()
--   [Jailbreak Bypass (Alpha)]()
--   [Refresh Rate]()
--   [Sensitivity]()
+-   [Keymapping](./settings/keymapping.md)
+-   [Graphics](./settings/graphics.md)
+-   [Jailbreak Bypass](./settings/jailbreak_bypass.md)
+-   [Miscellaneous](./settings/miscellaneous.md)
 
 # Building from Source
 
