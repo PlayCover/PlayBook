@@ -7,7 +7,10 @@ If you cannot install the Xcode Command Line Tools from within the app, there ar
 2. Type `xcode-select --install` and press return
 3. In the window that appears, press "Install"
 ![](../images/install_system_prompt.png)
-4. Wait for the command line tools to download and install. It should take somewhere around 5-10 minutes, depending in your internet connection. (the estimated time is usually wrong)
+4. Wait for the command line tools to download and install. It should take somewhere around 5-10 minutes, depending in your internet connection.
+
+    > __NOTE:__ When you start the download for `Xcode Command Line Tools` it may first estimate the time remaining at several hours or days. __This is normal__, it will typically not take anywhere near that time (speed will vary based on your Internet connection). If you're curious why this happens, watch [this](https://youtu.be/iZnLZFRylbs) video by Tom Scott.
+
 5. If you get an error, proceed to method 2
 
 ## Method 2: Downloading an install package off of the Apple Developer Website

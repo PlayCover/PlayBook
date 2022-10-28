@@ -2,7 +2,7 @@
 
 You may encounter some issues when logging in to some apps and games like Genshin Impact. Follow these instructions to fix that. As always, if you run into issues, ask for help on [Discord](https://discord.gg/rMv5qxGTGC).
 
-__NOTE:__ The instructions below are Genshin Impact specific, but the same process will work for a wide range of apps.
+> __NOTE:__ The instructions below are Genshin Impact specific, but the same process will work for a wide range of apps.
 
 1. Disable SIP
     - First shut down your Mac completely so the screen is black and all other lights are off
