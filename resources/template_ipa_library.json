@@ -1,0 +1,30 @@
+[
+    {
+        "bundleID": "xyz.skitty.Aidoku",
+        "name": "Aidoku",
+        "version": "0.5",
+        "itunesLookup": "",
+        "link": "https://github.com/Aidoku/Aidoku/releases/download/v0.5/Aidoku.ipa"
+    },
+    {
+        "bundleID": "com.litchie.idosgames",
+        "name": "iDos",
+        "version": "2.1",
+        "itunesLookup": "",
+        "link": "https://github.com/litchie/dospad/releases/download/2.1/iDOS.ipa"
+    },
+    {
+        "bundleID": "net.namedfork.minivmac",
+        "name": "Mini vMac for iOS",
+        "version": "2.5",
+        "itunesLookup": "",
+        "link": "https://github.com/zydeco/minivmac4ios/releases/download/v2.5/minivmac4ios-2.5.ipa"
+    },
+    {
+        "bundleID": "stream.yattee.app",
+        "name": "Yatee",
+        "version": "1.4-alpha.7",
+        "itunesLookup": "",
+        "link": "https://github.com/yattee/yattee/releases/download/v1.4-alpha.7/Yattee-1.4-alpha.7-iOS.ipa"
+    }
+]
