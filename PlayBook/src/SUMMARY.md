@@ -32,6 +32,8 @@
 # PlayTools
 
 -   [How It's Made](./playtools/how_its_made.md)
+-   [Main Features](./playtools/main_features.md)
+-   [AKInterface](./playtools/akinterface.md)
 
 # Contributing
 
