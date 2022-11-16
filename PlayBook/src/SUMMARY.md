@@ -29,6 +29,10 @@
 -   [Install Prerequisites](./building_from_source/install_prerequisites.md)
 -   [Building](./building_from_source/building.md)
 
+# PlayTools
+
+-   [How It's Made](./playtools/how_its_made.md)
+
 # Contributing
 
 -   [Forking & Making PRs](./contributing/forking_making_pr.md)
