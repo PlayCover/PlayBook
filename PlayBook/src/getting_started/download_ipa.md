@@ -7,13 +7,8 @@
 There are many sources online for decrypted .ipa files. Listed below are some recommended ones as they can vary in quality, speed, and recentness.
 
 ### Suggested Sources:
-1. [Appocalypse Discord](https://discord.gg/8SXCXbzzBe)
 
-    Decrypted .ipa files can be found in `#decrypted-ipas` channel. Popular .ipa files like Genshin Impact will be pinned. If the App you're looking for hasn't been decrypted, you can request it.
-
-    > __NOTE:__ The Appocalypse Discord does not condone piracy and, as a result, will NOT decrypt paid apps.
-
-3. External Websites
+1. External Websites
     
     There are several external websites including:
     - <https://ipa.decrypt.day>
@@ -21,7 +16,7 @@ There are many sources online for decrypted .ipa files. Listed below are some re
 
     > __NOTE:__ These are external sites, we cannot verify the quality or safety of these downloads. Use at your own risk.
 
-4. Decrypt Yourself
+2. Decrypt Yourself
 
     You can decrypt your own .ipa files including of paid apps you've already bought using a Jailbroken iOS device. There are many guides on how to do this online.
 
