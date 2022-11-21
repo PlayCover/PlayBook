@@ -11,7 +11,7 @@ There are many sources online for decrypted .ipa files. Listed below are some re
 1. External Websites
     
     There are several external websites including:
-    - <https://ipa.decrypt.day>
+    - <https://decrypt.day>
     - <https://armconverter.com/decryptedappstore>
 
     > __NOTE:__ These are external sites, we cannot verify the quality or safety of these downloads. Use at your own risk.
