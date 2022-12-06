@@ -7,29 +7,20 @@
 There are many sources online for decrypted .ipa files. Listed below are some recommended ones as they can vary in quality, speed, and recentness.
 
 ### Suggested Sources:
-1. [Discord](https://discord.com/channels/871829896492642387/918279999209996288)
 
-    Decrypted .ipa files can be found in #decrypted-ipas channel. Popular .ipa files like Genshin Impact will be pinned. ~~You can also request for .ipa files to be decrypted.~~ (Currently unavailable)
-
-    __NOTE:__ The PlayCover Discord does not condone piracy and, as a result, will NOT decrypt paid apps
-
-2. [PlayCover Website](https://ipa.playcover.workers.dev/0:/)
-
-    A web repository run by PlayCover developers containing already decrypted .ipa files from Discord
-
-3. External Websites
+1. External Websites
     
     There are several external websites including:
-    - <https://ipa.decrypt.day>
+    - <https://decrypt.day>
     - <https://armconverter.com/decryptedappstore>
 
-    __NOTE:__ As these sites are not run or moderated by PlayCover developers, we cannot verify the quality or safety of these downloads. Use at your own risk.
+    > __NOTE:__ These are external sites, we cannot verify the quality or safety of these downloads. Use at your own risk.
 
-4. Decrypt Yourself
+2. Decrypt Yourself
 
     You can decrypt your own .ipa files including of paid apps you've already bought using a Jailbroken iOS device. There are many guides on how to do this online.
 
-    __NOTE:__ This will require some technical knowledge, will likely invalidate your warranty, and may permanently damage your device.
+    > __NOTE:__ This will require some technical knowledge, will likely invalidate your warranty, and may permanently damage your device.
 
 ## Installing
 
@@ -39,4 +30,4 @@ If you run into issues installing, check that `Xcode Command Line Tools` are ins
 
 Some apps like Genshin Impact will require further and more technical setup to get working. You can find those instructions [here](./troubleshoot_login.md).
 
-__NOTE:__ Not all apps are supported. If you run into issues you can ask for help on the [Discord](https://discord.gg/rMv5qxGTGC).
+> __NOTE:__ Not all apps are supported. If you run into issues you can ask for help on the [Discord](https://discord.gg/rMv5qxGTGC).
