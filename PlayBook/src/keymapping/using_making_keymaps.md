@@ -8,12 +8,13 @@ Once you've finished importing or creating your keymap, you can toggle it on or 
 
 ## Creating & Editing Keymapping
 
+<img width="277" alt="Screenshot 2023-01-05 at 2 41 11 PM" src="https://user-images.githubusercontent.com/78054566/210866383-dd94b6ac-ce6e-416b-bd93-c0d565ca4a92.png">
+
 You can open and close the Keymapping Editor at any time with:
 * `command ⌘` + `K`
 * Menu Bar > Keymapping > Open/Close Keymapping Editor
-<img width="277" alt="Screenshot 2023-01-05 at 2 41 11 PM" src="https://user-images.githubusercontent.com/78054566/210866383-dd94b6ac-ce6e-416b-bd93-c0d565ca4a92.png">
 
-Once in the Keymapping Editor you can add a new button by clicking on the screen. A ring menu will appear around the cursor with several different button types.
+Once in the Keymapping Editor you can add a new button by clicking on the screen. A ring menu will appear around the cursor with several different button types. Closing the Keymapping Editor will automatically save any changes you made to your keymap.
 
 <img width="150" alt="Screenshot 2023-01-05 at 2 39 18 PM" src="https://user-images.githubusercontent.com/78054566/210866443-e0c9f967-3554-4506-b37c-ce9775157312.png">
 
