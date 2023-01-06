@@ -13,7 +13,7 @@
   <br />
   <a href="https://github.com/PlayCover/PlayCover">GitHub</a>
   ·
-  <a href="https://discord.gg/rMv5qxGTGC">Discord</a>
+  <a href="https://discord.gg/RNCHsQHr3S">Discord</a>
   ·
   <a href="https://playcover.io/">Website</a>
 </p>
