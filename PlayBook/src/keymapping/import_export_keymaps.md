@@ -10,6 +10,7 @@ Keymaps can be imported and exported easily to share them with other PlayCover u
 2. Open PlayCover and right click the app you wish to import the keymap to
 3. Click on `Import Keymapping`
 5. Select the previously downloaded `.playmap` file
+> __Note__: Legacy keymaps from older versions of PlayCover will need to be converted to work on newer versions.
 
 ## Exporting Keymaps
 
@@ -19,3 +20,6 @@ Keymaps can be imported and exported easily to share them with other PlayCover u
 2. Click on `Export Keymapping`
 3. Select the folder you would like to export the `.playmap` file to
 4. Press `Open` to export the keymap to the folder selected
+> __Note__: Keymaps exported from newer version of PlayCover will not work on older versions.
+
+###### This information is up-to-date as of PlayCover 2.0.2
