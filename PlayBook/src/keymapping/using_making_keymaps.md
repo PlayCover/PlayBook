@@ -10,35 +10,33 @@ Once you've finished importing or creating your keymap, you can toggle it on or 
 
 <img width="277" alt="Screenshot 2023-01-05 at 2 41 11 PM" src="https://user-images.githubusercontent.com/78054566/210866383-dd94b6ac-ce6e-416b-bd93-c0d565ca4a92.png">
 
-You can **open** and **close** the Keymapping Editor while in app with:
-* `command ⌘` + `K`
-* Menu Bar > Keymapping > Open/Close Keymapping Editor
+You can **open** and **close** the Keymapping Editor while in app using `command ⌘` + `K`
 
-Once in the Keymapping Editor you can add a new button by clicking on the screen. A ring menu will appear around the cursor with different button types. Closing the editor will automatically save any changes you made to the keymap.
+<img width="1104" alt="Screenshot 2023-01-07 at 9 41 40 PM" src="https://user-images.githubusercontent.com/78054566/211178151-107e9e25-0c76-4466-bcb5-823635199f6e.png">
+
+Once in the Keymapping Editor you can add a new button by clicking anywhere on the screen. A ring menu will appear around your cursor with different button types. Closing the Keymapping Editor will automatically **save** any changes you have made to the keymap.
 
 <img width="150" alt="Screenshot 2023-01-05 at 2 39 18 PM" src="https://user-images.githubusercontent.com/78054566/210866443-e0c9f967-3554-4506-b37c-ce9775157312.png">
 
-The following table will describe each button and how they work.
+#### Keymapping Editor button types 
 
-| Symbol | Button | Usage |
+| Symbol | Button | Description |
 | :-----------: | :-----------: | ------------- |
 | <img width="38" alt="Screenshot 2023-01-05 at 2 39 18 PM copy" src="https://user-images.githubusercontent.com/78054566/210868935-5f04fbbd-48a8-4b99-ba1f-b40c541fad95.png">  | Circle | Adds a single key binding. Useful for pressing buttons on the UI. By default this will create a single button mapped to `LMB` (Left Mouse Button). |
-| <img width="38" alt="Screenshot 2023-01-05 at 2 39 18 PM copy 2" src="https://user-images.githubusercontent.com/78054566/210870935-25a6b669-97f2-493e-b607-40304d7fa027.png"> | Directional Pad | Adds 8-way directional joystick, where Up, Down, Left, and Right are bound to keys (by default mapped to `W` `A` `S` `D`). Useful for movement joysticks. |
+| <img width="38" alt="Screenshot 2023-01-05 at 2 39 18 PM copy 2" src="https://user-images.githubusercontent.com/78054566/210870935-25a6b669-97f2-493e-b607-40304d7fa027.png"> | Directional Pad | Adds an 8-way directional joystick, where Up, Down, Left, and Right are bound to keys (by default mapped to `W` `A` `S` `D`). Useful for movement joysticks. |
 | <img width="38" alt="Screenshot 2023-01-05 at 2 39 18 PM copy 3" src="https://user-images.githubusercontent.com/78054566/210871542-588e2aba-a2c3-4a60-ba17-59803c56cb4f.png"> | Directional Arrows | Adds an area for mouse input. Useful for camera control. Can be mapped to other keys to recreate draggable touchscreen aiming controls present in some games. |
 | <img width="38" alt="Screenshot 2023-01-05 at 2 39 18 PM copy 4" src="https://user-images.githubusercontent.com/78054566/210871677-84e9c784-6391-4e7b-951e-81ff1bd9a0a0.png"> | Mouse | Adds a single button bound to mouse control similar to Directional Arrows. Useful for games that require 360-degree movement control instead of 8-way directional movement. |
 
-> The key bound to each button can be changed by clicking the keymap to select it and pressing the key you want to bind it to. Button position can be changed by selecting the button and dragging it to your desired position.
+> __Note__: On legacy versions of PlayCover, there may be RB and LB button types for adding left and right mouse button input.
 
-You can **delete** a selected button with:
-* `command ⌘` + `delete`
-* Menu Bar > Keymapping > Delete selected element
+#### Keymapping Editor usage instructions
 
-You can **increase** a selected button's size with:
-* `command ⌘` + `▲`
-* Menu Bar > Keymapping > Upsize selected element 
-
-You can **decrease** a selected button's size with:
-* `command ⌘` + `▼`
-* Menu Bar > Keymapping > Downsize selected element 
+| Function | Input | Usage |
+| :-----------: | ------------- | ------------- |
+| Change button | Click on the button and press the key you want | Change the default button map to another key |
+| Move button | Click on the button and drag it using your mouse cursor | Position the button into to match in-game controls |
+| Delete button | Click on the button and press `command ⌘` + `delete` | Removes the button from your keymap |
+| Increase button size | Click on the button and press `command ⌘` + `▲` | Increase the size of the button coverage area | 
+| Decrease button size | Click on the button and press `command ⌘` + `▼` | Decrease the size of the button coverage area |
 
 ###### This information is up-to-date as of PlayCover `2.0.2`
