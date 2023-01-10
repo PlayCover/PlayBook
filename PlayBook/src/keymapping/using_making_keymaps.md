@@ -6,7 +6,7 @@ Many apps and games already have full keymaps available on the Discord. For more
 
 Once you've finished importing or creating your keymap, you can toggle it on or off using the `option ⌥` key.
 
-## Creating & Editing Keymapping
+## Creating & Editing Keymaps
 
 <img width="277" alt="Screenshot 2023-01-05 at 2 41 11 PM" src="https://user-images.githubusercontent.com/78054566/210866383-dd94b6ac-ce6e-416b-bd93-c0d565ca4a92.png">
 
