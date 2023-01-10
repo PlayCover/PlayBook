@@ -9,7 +9,7 @@ Keymaps can be imported and exported easily to share them with other PlayCover u
 1. Download the `.playmap` file from [#keymap-showcase](https://discord.com/channels/871829896492642387/922068254569160745) or from the [keymaps repository](https://github.com/PlayCover/keymaps). 
 2. Open PlayCover and right click the app you wish to import the keymap to
 3. Click on `Import Keymapping`
-5. Select the previously downloaded `.playmap` file
+4. Select the previously downloaded `.playmap` file
 > __Note__: Legacy keymaps from older versions of PlayCover will need to be converted to work on newer versions.
 
 ## Exporting Keymaps
