@@ -1,20 +1,24 @@
 # Using & Making Keymaps
 
-Many apps and games already have full keymaps available on the Discord. For more info see [this article](./import_export_keymaps.md). Additionally, you can  find them on the [keymaps repository](https://github.com/PlayCover/keymaps). 
+Many apps and games already have full keymaps available on our [Keymaps repository](https://github.com/PlayCover/keymaps). Additionally, you can find them on the [PlayCover Discord](https://discord.gg/rMv5qxGTGC) `#keymapping` channel. 
+
+>__Note__:If you want to add or share keymaps, see [Importing & Exporting Keymaps](./import_export_keymaps.md) for more information.
 
 ## Using Keymapping
 
-Once you've finished importing or creating your keymap, you can toggle it on or off using the `option ⌥` key.
+Once you've finished importing or creating your keymap, you can toggle it on or off by pressing the `option ⌥` key. Turning on keymapping will hide your cursor but you can still switch between other apps you have open using trackpad gestures or keyboard shortcuts. 
 
 ## Creating & Editing Keymaps
 
 <img width="277" alt="Screenshot 2023-01-05 at 2 41 11 PM" src="https://user-images.githubusercontent.com/78054566/210866383-dd94b6ac-ce6e-416b-bd93-c0d565ca4a92.png">
 
-You can **open** and **close** the Keymapping Editor while in app using `command ⌘` + `K`
+You can **open** and **close** the Keymapping Editor while in app using `command ⌘` + `K` or selecting it from the Menu Bar.
 
 <img width="1104" alt="Screenshot 2023-01-07 at 9 41 40 PM" src="https://user-images.githubusercontent.com/78054566/211178151-107e9e25-0c76-4466-bcb5-823635199f6e.png">
 
-Once in the Keymapping Editor you can add a new button by clicking anywhere on the screen. A ring menu will appear around your cursor with different button types. Closing the Keymapping Editor will automatically **save** any changes you have made to the keymap.
+After opening the Keymapping Editor you can add a new button by clicking anywhere on the screen. A ring menu will appear around your cursor with different button types. You can click on them to add the type of input you want (see the tables below details and usage). 
+
+Closing the Keymapping Editor will automatically **save** any changes you have made to the keymap.
 
 <img width="150" alt="Screenshot 2023-01-05 at 2 39 18 PM" src="https://user-images.githubusercontent.com/78054566/210866443-e0c9f967-3554-4506-b37c-ce9775157312.png">
 
