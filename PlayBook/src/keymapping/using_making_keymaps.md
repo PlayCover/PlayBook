@@ -27,7 +27,7 @@ Once in the Keymapping Editor you can add a new button by clicking anywhere on t
 | <img width="38" alt="Screenshot 2023-01-05 at 2 39 18 PM copy 3" src="https://user-images.githubusercontent.com/78054566/210871542-588e2aba-a2c3-4a60-ba17-59803c56cb4f.png"> | Directional Arrows | Adds an area for mouse input. Useful for camera control. Can be mapped to other keys to recreate draggable touchscreen aiming controls present in some games. |
 | <img width="38" alt="Screenshot 2023-01-05 at 2 39 18 PM copy 4" src="https://user-images.githubusercontent.com/78054566/210871677-84e9c784-6391-4e7b-951e-81ff1bd9a0a0.png"> | Mouse | Adds a single button bound to mouse control similar to Directional Arrows. Useful for games that require 360-degree movement control instead of 8-way directional movement. |
 
-> __Note__: On legacy versions of PlayCover, there may be RB and LB button types for adding left and right mouse button input.
+> __Note__: On legacy versions (prior to 2.0.0 or PlayTools 2.0.1) of PlayCover, there may be RB and LB button types for adding left and right mouse button input.
 
 #### Keymapping Editor usage instructions
 
