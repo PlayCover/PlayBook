@@ -16,6 +16,8 @@ For every other Apple Silicon device and most applications, we recommend the `M1
 
 ### Resolution
 
+<img width="295" alt="Screenshot 2023-01-11 at 2 15 52 PM" src="https://user-images.githubusercontent.com/78054566/211922033-9d0e49ac-05d5-47d5-b9db-475c8288d558.png">
+
 | Option | Description |
 | :-----------: | ------------- |
 | App Default  | This will leave the window size up to the application, which may not always be desirable since it might not fully utilize the available screen real estate of your display. |
