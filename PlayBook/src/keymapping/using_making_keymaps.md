@@ -2,7 +2,7 @@
 
 Many apps and games already have full keymaps available on our [Keymaps repository](https://github.com/PlayCover/keymaps). Additionally, you can find them on the [PlayCover Discord](https://discord.gg/rMv5qxGTGC) `#keymapping` channel. 
 
->__Note__:If you want to add or share keymaps, see [Importing & Exporting Keymaps](./import_export_keymaps.md) for more information.
+>__Note__: If you want to add or share keymaps, see [Importing & Exporting Keymaps](./import_export_keymaps.md) for more information.
 
 ## Using Keymapping
 
