@@ -10,7 +10,7 @@ If you have an Intel Mac, you can explore alternatives like Bootcamp or emulator
 
 You can download the [latest stable release](https://github.com/PlayCover/PlayCover/releases/latest), or build from source by following the instructions below. 
 
-Additionally, you can download the [latest nightly version](https://nightly.link/PlayCover/PlayCover/workflows/2.nightly_release/develop/PlayCover_nightly_210.dmg) to test out experimental features not yet added to the stable release.
+Additionally, you can download the [latest nightly version](https://nightly.link/playcover/playcover/workflows/2.nightly_release/develop) to test out experimental features not yet added to the stable release.
 
 ![Releases](../images/releases.png)
 >__Note__: The release number in the image may not match the most recent release.
