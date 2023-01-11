@@ -16,7 +16,7 @@ You can **open** and **close** the Keymapping Editor while in app using `command
 
 <img width="1104" alt="Screenshot 2023-01-07 at 9 41 40 PM" src="https://user-images.githubusercontent.com/78054566/211178151-107e9e25-0c76-4466-bcb5-823635199f6e.png">
 
-After opening the Keymapping Editor you can add a new button by clicking anywhere on the screen. A ring menu will appear around your cursor with different button types. You can click on them to add the type of input you want (see the tables below details and usage). 
+After opening the Keymapping Editor you can add a new button by clicking anywhere on the screen. A ring menu will appear around your cursor with different button types. You can click on them to add the type of input you want (see the tables below for details and usage). 
 
 Closing the Keymapping Editor will automatically **save** any changes you have made to the keymap.
 
