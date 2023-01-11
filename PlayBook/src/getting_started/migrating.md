@@ -1,6 +1,6 @@
 # Migrating
 
-This page contains instructions on how to migrate/update from an older version of PlayCover to version 2.0 and later. You can check your current version from the menu bar by clicking `PlayCover` > `About PlayCover`
+This page contains instructions on how to migrate/update from an older version of PlayCover to version 2.0 and newer. You can check your current version from the menu bar by clicking `PlayCover` > `About PlayCover`
 
 <img width="216" alt="Screenshot 2023-01-11 at 12 03 48 PM" src="https://user-images.githubusercontent.com/78054566/211870031-3248ae87-f049-4d41-a425-1672a6ab675d.png">
 
