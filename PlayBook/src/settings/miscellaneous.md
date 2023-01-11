@@ -19,14 +19,14 @@ The following table will explain the HUD elements
 | Example | Description |
 | :-----------: | ------------- |
 | `Apple M1` | Shows the name of the Apple Silicon chip. |
-| `[2668x1688]` | Default app resolution. |
-| `1.9x` | Resolution scaling, `1.0x` is equal to native resolution of the display. >`1.0x` means the app resolution is less than the display, and <`1.0x` means it is more than the display resolution. |
+| `[2668x1688]` | Effective window resolution. |
+| `1.9x` | Resolution scaling performed by macOS. `1.0x` would be native for displays that do not use HiDPI. For displays that use HiDPI, macOS will apply downsampling at `0.5x` to reach actual window resolution, so native resolution would be around `2.0x.` |
 | `Composited` | How the app is rendered to display, can be `Composited` or `Direct`. |
-| `60Hz` | The refresh rate limit supported by your display. |
+| `60Hz` | The refresh rate limit supported by your display hardware. |
 | `FPS: 60.00` | Average frames per second, the numbers in the brackets indicate min and max values recorded in the interval of the graph, however, FPS is not shown as a line on the graph. This number should be equal to the refresh rate of your display. |
 | `Pre: 16.67` | Average frame time, or the amount of time it takes (in milliseconds) to render each frame. The numbers in the brackets indicate min and max values recorded in the interval of the graph. Frame time is shown as a blue line on the graph, a flat line indicates consistent frame time. |
-| `GPU: 10.97` | Average GPU utilization, the numbers in the brackets indicate min and max values recorded in the interval of the graph. GPU utilization is shown as a green line on the graph. GPU usage may fluctuate during gameplay, this is normal as long as FPS and frame time are consistent. |
-| `Mem: 1.57GB` | Average RAM usage, the green numbers in brackets likely indicates VRAM usage. |
+| `GPU: 10.97` | Average GPU utilization (not percentages), the numbers in the brackets indicate min and max values recorded in the interval of the graph. GPU utilization is shown as a green line on the graph. GPU usage may fluctuate during gameplay, this is normal as long as FPS and frame time are consistent. |
+| `Mem: 1.57GB` | Average RAM usage, the green numbers in brackets indicates VRAM usage. |
 
 >__Note__: This feature is only available on macOS 13 (Ventura) or newer, and only works on certain apps such as games.
 
