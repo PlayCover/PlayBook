@@ -32,4 +32,8 @@ The following table will provide an in-depth explanation on the Metal 3 Performa
 
 >__Note__: This feature is only available on macOS 13 (Ventura) or newer, and only works on certain apps such as games.
 
+### Debugger
+
+This feature is meant for development and testing purposes only, and should not be enabled unless you know what you are doing.
+
 ###### This information is up-to-date as of PlayCover `2.0.2`
