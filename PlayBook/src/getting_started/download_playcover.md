@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-At the moment, PlayCover only works on **Apple Silicon Macs**. The minimum hardware requirement is an Apple M1 chip, PlayCover will also work on all Apple Silicon chips released after the M1.
+PlayCover only works on **Apple Silicon Macs**. The minimum hardware requirement is an Apple M1 chip, but PlayCover will also work on all Apple Silicon chips released after the M1.
 
 If you have an Intel Mac, you can explore alternatives like Bootcamp or emulators.
 
