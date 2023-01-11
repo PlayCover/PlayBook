@@ -46,9 +46,9 @@
     --quote-bg: rgb(68, 159, 151, 10%);
     --quote-color: #449f97;
 
-    --table-border-color: #232634;
-    --table-header-bg: #292c3c;
-    --table-alternate-bg: #232634;
+    --table-border-color: #f3f3f3;
+    --table-header-bg: #f3f3f3;
+    --table-alternate-bg: #f3f3f3;
 
     --searchbar-border-color: rgb(0, 0, 0, 8%);
     --searchbar-bg: #f3f3f3;
