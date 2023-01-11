@@ -39,7 +39,9 @@ Follow these instructions to fix issues preventing you from logging in to apps l
 5. Open Genshin Impact
     - You're done! Enjoy playing Genshin!
 
-If you have tried this and still cannot login, try `sudo nvram boot-args="amfi_get_out_of_my_way=1"` as boot-args instead of the ones above. You can also try deleting any items related to your game in Keychain Access (type `keychain access` in Spotlight Search to open it), as well as try enabling jailbreak detection bypass in your app settings. If your app still does not work, you can [open an app/game support request](https://github.com/PlayCover/PlayCover/issues/new/choose) if no one else has done so already.
+If you have tried this and still cannot login, try `sudo nvram boot-args="amfi_get_out_of_my_way=1"` as boot-args instead of the ones above. You can also try deleting any items related to your game in Keychain Access (type `keychain access` in Spotlight Search to open it), as well as enabling jailbreak detection bypass in your app settings. Additional login issues may be solved by clearing app preferences.
+
+If your app still does not work, you can [open an app/game support request](https://github.com/PlayCover/PlayCover/issues/new/choose) if no one else has done so already.
 
 [^1]: If you enter the door while SIP is disabled, you will not be able to login to the game when you re-enable SIP afterwards. If you have accidentally entered the door, you can try deleting Genshin related items in Keychain Access (search for `genshin` and `mihoyo`), then repeating the troubleshooting process from step 1.
 
