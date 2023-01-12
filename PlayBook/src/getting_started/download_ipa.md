@@ -8,20 +8,20 @@ There are many sources online for decrypted `.ipa` files. Listed below are some 
 
 ### Suggested Sources:
 
-1. External Websites
+#### External Websites
 
-    |  | Website Name | Link |
-    | :-----------: | :-----------: | :-----------: |
-    | <img width="50" src="https://user-images.githubusercontent.com/78054566/211850333-19dda93c-1365-4310-ac2f-0fe888231251.png"> | Decrypt IPA Store | [decrypt.day](https://decrypt.day/) |
-    | <img width="50" src="https://user-images.githubusercontent.com/78054566/211851167-31b3748a-eca6-450e-a735-65e1df266f31.png"> | Decrypted iOS IPA App Store | [armconverter.com](https://armconverter.com/decryptedappstore/us) |
+|  | Website Name | Link |
+| :-----------: | :-----------: | :-----------: |
+| <img width="50" src="https://user-images.githubusercontent.com/78054566/211850333-19dda93c-1365-4310-ac2f-0fe888231251.png"> | Decrypt IPA Store | [decrypt.day](https://decrypt.day/) |
+| <img width="50" src="https://user-images.githubusercontent.com/78054566/211851167-31b3748a-eca6-450e-a735-65e1df266f31.png"> | Decrypted iOS IPA App Store | [armconverter.com](https://armconverter.com/decryptedappstore/us) |
     
-    >__Note__: These are external sites and we cannot verify the quality or safety of the downloads. Use at your own risk.
+>__Note__: These are external sites and we cannot verify the quality or safety of the downloads. Use at your own risk.
 
-2. Decrypt Yourself
+#### Decrypt Yourself
 
-    You can decrypt your own `.ipa` files including of paid apps you've already bought using a Jailbroken iOS device. There are many guides online on how to do this.
+You can decrypt your own `.ipa` files including of paid apps you've already bought using a Jailbroken iOS device. There are many guides online on how to do this.
 
-    >__Note__: This will require some technical knowledge, will most likely invalidate your warranty, and may permanently damage your device. PlayCover assumes no responsibility for any damages incurred from suggested sources.
+>__Note__: This will require some technical knowledge, will most likely invalidate your warranty, and may permanently damage your device. PlayCover assumes no responsibility for any damages incurred from suggested sources.
 
 ## Installing
 
