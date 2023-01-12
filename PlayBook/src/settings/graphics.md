@@ -20,9 +20,7 @@ For every other Apple Silicon device and most applications, we recommend the `M1
 
 | Option | Description |
 | :-----------: | ------------- |
-| App Default  | This will leave the window size up to the application, which may not always be desirable since it might not fully utilize the available screen real estate of your display.
-
-Some apps may only work correctly under this setting, otherwise their display and touch area might be offset, and in particular cases dynamic window resizing won’t work either. |
+| App Default  | This will leave the window size up to the application, which may not always be desirable since it might not fully utilize the available screen real estate of your display. Some apps may only work correctly under this setting, otherwise their display and touch area might be offset, and in particular cases dynamic window resizing won’t work either. |
 | Auto (Based on Display) | This will attempt to match the window size to your display's resolution and aspect ratio. |
 | 1080p/1440p/4K | This sets the window size to a standard resolution, with aspect ratio options of 4:3, 16:9, or 16:10. Most MacBook built in displays are 16:10 and we recommend using this aspect ratio to prevent letterboxing. |
 | Custom | This lets you set a completely custom resolution, useful for ultrawide monitor setups. Please note that some extreme aspect ratios or resolutions may cause compatibility or performance issues. |
