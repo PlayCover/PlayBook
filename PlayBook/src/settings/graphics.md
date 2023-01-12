@@ -27,7 +27,7 @@ Some apps may only work correctly under this setting, otherwise their display an
 | 1080p/1440p/4K | This sets the window size to a standard resolution, with aspect ratio options of 4:3, 16:9, or 16:10. Most MacBook built in displays are 16:10 and we recommend using this aspect ratio to prevent letterboxing. |
 | Custom | This lets you set a completely custom resolution, useful for ultrawide monitor setups. Please note that some extreme aspect ratios or resolutions may cause compatibility or performance issues. |
 
->__Note__: Keymaps do not automatically adjust according to aspect ratio changes. For example, a keymap made for 16:10 will not work properly when the game is changed to 16:9. We recommend using keymaps made specifically for the aspect ratio you choose, you can find them on the [_Keymaps repository_](https://github.com/PlayCover/keymaps).
+>__Note__: Keymaps do not automatically adjust according to aspect ratio changes. For example, a keymap made for 16:10 will not work properly when the game is changed to 16:9. We recommend using keymaps made specifically for the aspect ratio you choose, you can find them on the [_Keymaps repository_](https://github.com/PlayCover/keymaps/tree/master/keymapping).
 
 ### Disable display sleep
 
