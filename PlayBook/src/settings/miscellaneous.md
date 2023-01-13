@@ -12,7 +12,7 @@ This option enables/disables Discord RPC, which allows you to display the games 
 
 This feature utilises the new Metal 3 Performance HUD in macOS Ventura to provide you with frame rate, frame time, GPU, and Memory utilisation stats. This can be useful for stress testing the performance of games to find the right balance between quality and performance. 
 
->__Note__: To show or hide the HUD in-game, you must toggle it in the app settings while the app is closed. When enabled, the HUD will always show in the top right corner of the window and may obscure of the content rendered by the app in this area.
+>__Note__: To show or hide the HUD in-game, you must toggle it from individual app settings in PlayCover while the app is closed. When enabled, the HUD will always show in the top right corner of the window and may obscure some of the content rendered by the app in this area.
 
 <img width="207" alt="Screenshot 2023-01-11 at 2 57 45 PM" src="https://user-images.githubusercontent.com/78054566/211905384-692eee50-6380-4e78-b22d-49251642a6c1.png">
 
