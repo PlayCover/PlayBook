@@ -12,9 +12,6 @@ You can download the [latest stable release](https://github.com/PlayCover/PlayCo
 
 You can also [build from source](https://docs.playcover.io/building_from_source/install_prerequisites) if you wish to make contributions to PlayCover.
 
-![Releases](../images/releases.png)
->__Note__: The release number in the image may not match the most recent release.
-
 ## Installing
 
 - Drag PlayCover into your Applications folder. 

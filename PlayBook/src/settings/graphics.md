@@ -1,12 +1,14 @@
 # Graphics
 
+With PlayTools injected, you will be able to change the iOS device and the resolution settings of the app. These settings are only applied when you launch the app and will not take effect while the app is already open.
+
 ![Graphics](../images/graphics_settings.png)
 
 ### iOS Device
 
 This controls the Model Identifier that PlayCover will report to the running app. Essentially this decides what device the app *thinks* it is running on. Apps can have device specific optimisations, so adjusting this value can lock/unlock certain features.
 
-For most applications, iPad identifiers are preffered over iPhone identifiers, however there are a few iPhone options available.
+For most applications, iPad identifiers are preferred over iPhone identifiers, however there are a few iPhone options available.
 
 Using the `M1` iPad identifier on MacBook Air will typically result in thermal throttling when playing graphically intensive games (like Genshin Impact) over a long period of time. If thermals are a concern or you want to enjoy longer gaming sessions on MacBook Air without FPS drops, we recommend using the `A12Z` identifier.
 

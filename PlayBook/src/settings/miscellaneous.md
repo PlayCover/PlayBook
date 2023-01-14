@@ -1,6 +1,6 @@
 # Miscellaneous
 
-![Misc](../images/misc_settings.png)
+<img width="1012" alt="Screenshot 2023-01-12 at 7 55 34 PM" src="https://user-images.githubusercontent.com/78054566/212212416-4ce31eb2-a02f-41c6-b23b-37da5b2cc325.png">
 
 ### Enable Discord activity
 
@@ -10,9 +10,9 @@ This option enables/disables Discord RPC, which allows you to display the games 
 
 <img width="1105" alt="Screenshot 2023-01-11 at 2 55 06 PM" src="https://user-images.githubusercontent.com/78054566/211905075-36179ebd-a69b-447c-b016-ff069d5e0779.png">
 
-This feature utilises the new Metal 3 Performance HUD to provide you with frame rate, frame time, GPU, and Memory utilisation stats. This can be useful for stress testing the performance of games to find the right balance between quality and performance. 
+This feature utilises the new Metal 3 Performance HUD in macOS Ventura to provide you with frame rate, frame time, GPU, and Memory utilisation stats. This can be useful for stress testing the performance of games to find the right balance between quality and performance. 
 
->__Note__: To show or hide the HUD in-game, you must toggle it in the app settings while the app is closed. When enabled, the HUD will always show in the top right corner of the window and may obscure of the content rendered by the app in this area.
+>__Note__: To show or hide the HUD in-game, you must toggle it from individual app settings in PlayCover while the app is closed. When enabled, the HUD will always show in the top right corner of the window and may obscure some of the content rendered by the app in this area.
 
 <img width="207" alt="Screenshot 2023-01-11 at 2 57 45 PM" src="https://user-images.githubusercontent.com/78054566/211905384-692eee50-6380-4e78-b22d-49251642a6c1.png">
 
@@ -29,8 +29,6 @@ The following table will provide an in-depth explanation on the Metal 3 Performa
 | `Pre: 16.67` | Average frame time, or the amount of time it takes (in milliseconds) to render each frame. The numbers in the brackets indicate min and max values recorded in the interval of the graph. Frame time is shown as a blue line on the graph, a flat line indicates consistent frame time. |
 | `GPU: 10.97` | Average GPU utilization (not percentage based), the numbers in the brackets indicate min and max values recorded in the interval of the graph. GPU utilization is shown as a green line on the graph. GPU usage may fluctuate during gameplay, this is normal as long as FPS and frame time are consistent. |
 | `Mem: 1.57GB` | Average RAM usage, the green numbers in brackets indicates VRAM usage. |
-
->__Note__: This feature is only available on macOS 13 (Ventura) or newer, and only works on certain apps such as games.
 
 ### Debugger
 
