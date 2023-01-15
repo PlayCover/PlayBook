@@ -34,4 +34,8 @@ The following table will provide an in-depth explanation on the Metal 3 Performa
 
 This feature is meant for development and testing purposes only, and should not be enabled unless you know what you are doing.
 
+### Inject/Remove PlayTools
+
+By default, PlayTools are injected into the app when you add it to the App Library. PlayTools allows you to use keymapping, mouse mapping, change iOS device identifier, set custom resolutions, and more. However, these features may not be necessary for certain apps and may even cause issues. If the app you are using is not working properly as expected, you can try removing PlayTools.
+
 ###### This information is up-to-date as of PlayCover `2.0.2`
