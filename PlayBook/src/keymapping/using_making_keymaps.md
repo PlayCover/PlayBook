@@ -6,7 +6,7 @@ Many apps and games already have full keymaps available on our [Keymaps reposito
 
 ## Using Keymapping
 
-Once you've finished importing or creating your keymap, you can toggle it on or off by pressing the `option ⌥` key. Turning on keymapping will hide your cursor but you can still switch between other apps you have open using trackpad gestures or keyboard shortcuts. 
+Once you've finished importing or creating your keymap, you can toggle it on or off by pressing the `option ⌥` key. Turning on keymapping will lock the cursor to the app window, but you can still switch to other apps you have open using trackpad gestures or keyboard shortcuts. 
 
 ## Creating & Editing Keymaps
 
@@ -31,7 +31,7 @@ Closing the Keymapping Editor will automatically **save** any changes you have m
 | <img width="38" alt="Screenshot 2023-01-05 at 2 39 18 PM copy 3" src="https://user-images.githubusercontent.com/78054566/210871542-588e2aba-a2c3-4a60-ba17-59803c56cb4f.png"> | Directional Arrows | Adds an area for mouse input. Useful for camera control. Can be mapped to other keys to recreate draggable touchscreen aiming controls present in some games. |
 | <img width="38" alt="Screenshot 2023-01-05 at 2 39 18 PM copy 4" src="https://user-images.githubusercontent.com/78054566/210871677-84e9c784-6391-4e7b-951e-81ff1bd9a0a0.png"> | Mouse | Adds a single button bound to mouse control similar to Directional Arrows. Useful for games that require 360-degree movement control instead of 8-way directional movement. |
 
-> __Note__: On legacy versions (prior to 2.0.0 or PlayTools 2.0.1) of PlayCover, there may be RB and LB button types for adding left and right mouse button input.
+>__Note__: On legacy versions (prior to 2.0.0 or PlayTools 2.0.1) of PlayCover, there may be RB and LB button types for adding left and right mouse button input.
 
 #### Keymapping Editor usage instructions
 
@@ -42,5 +42,7 @@ Closing the Keymapping Editor will automatically **save** any changes you have m
 | Delete button | Click on the button and press `command ⌘` + `delete` | Removes the button from your keymap |
 | Increase button size | Click on the button and press `command ⌘` + `▲` | Increase the size of the button coverage area | 
 | Decrease button size | Click on the button and press `command ⌘` + `▼` | Decrease the size of the button coverage area |
+
+>__Note__: Input that cannot be mapped includes, but are not limited to: `fn`, `F1` to `F12` function keys, `option`, `command`, `numeric keyboard` extra keys, `middle mouse button`, `scroll wheel`, `power button`. 
 
 ###### This information is up-to-date as of PlayCover `2.0.2`
