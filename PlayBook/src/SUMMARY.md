@@ -16,13 +16,11 @@
     -   [Importing & Exporting Keymaps](./keymapping/import_export_keymaps.md)
     -   [Common Issues](./keymapping/common_issues.md)
 
-# Account Manager
+-   [Account Manager](./account_manager/README.md)
 
--   [Store Account](./account_manager/store_account.md)
--   [Switch Account](./account_manager/switch_account.md)
--   [Delete Account](./account_manager/delete_account.md)
-
-# Settings
+    -   [Store Account](./account_manager/store_account.md)
+    -   [Switch Account](./account_manager/switch_account.md)
+    -   [Delete Account](./account_manager/delete_account.md)
 
 -   [Settings](./settings/README.md)
 
