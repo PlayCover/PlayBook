@@ -4,4 +4,4 @@
 -   [Configure Entitlements for Jailbreak Bypass](./entitlements.md)
 -   [Photo Storage](./photo_storage.md)
 -   [Related Projects and Utilities](./projects_utilities.md)
--   [Runnning Apps with Xcode](./run_with_xcode.md)
+-   [Running Apps with Xcode](./run_with_xcode.md)

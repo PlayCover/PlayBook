@@ -1,4 +1,4 @@
-# Runnning Apps with Xcode
+# Running Apps with Xcode
 
 In some cases apps won't run with SIP enabled because they cannot access certain frameworks which are only available to properly signed apps.
 
