@@ -26,6 +26,7 @@
 -   [Other features](./other_features/README.md)
 
     -   [Sideloadly Export](./other_features/sideloadly_export.md)
+    -   [Account Manager](./other_features/account_manager.md)
 
 -   [Building from Source](./building_from_source/README.md)
 
