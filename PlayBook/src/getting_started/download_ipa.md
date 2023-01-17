@@ -27,7 +27,7 @@ You can decrypt your own `.ipa` files including of paid apps you've already boug
 
 Installing decrypted `.ipa` files is simple. You can drag and drop the file into the PlayCover window, or click on the 'Add app' button to select the `.ipa` file in Finder.
 
-<img width="749" alt="Screenshot 2023-01-11 at 11 05 52 AM" src="https://user-images.githubusercontent.com/78054566/211856105-6388723b-7ff6-425f-a73f-71842c38275b.png">
+<img width="749" src="../images/add_app_button.png">
 
 If you run into issues, verify that `Xcode Command Line Tools` are installed, see [Download & Install PlayCover](./download_playcover.md#installing) for more info.
 
