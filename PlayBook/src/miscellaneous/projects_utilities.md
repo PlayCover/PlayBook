@@ -10,6 +10,9 @@
 ### [PlayCover Test Toolkit (PCTT)](https://github.com/IsaacMarovitz/PlayCover-Test-Toolkit)
 An iOS app built in Unity meant for basic debugging and testing of PlayCover and PlayTools. It displays system data and visually shows touch inputs, making it useful for keymap testing.
 
+### [PlayCover-Raycast](https://github.com/JoseMoreville/PlayCover-Raycast)
+A [Raycast](https://www.raycast.com) extension for PlayCover.
+
 ## Related projects
 
 ### [PlayCover CLI](https://github.com/JoseMoreville/PlayCover-CLI)
