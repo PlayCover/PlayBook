@@ -1,6 +1,6 @@
 # Miscellaneous
 
-<img width="1012" alt="Screenshot 2023-01-12 at 7 55 34 PM" src="https://user-images.githubusercontent.com/78054566/212212416-4ce31eb2-a02f-41c6-b23b-37da5b2cc325.png">
+<img width="1012" src="../images/misc_settings.png">
 
 ### Enable Discord activity
 
@@ -8,13 +8,13 @@ This option enables/disables Discord RPC, which allows you to display the games 
 
 ### Metal 3 Performance HUD (macOS 13+)
 
-<img width="1105" alt="Screenshot 2023-01-11 at 2 55 06 PM" src="https://user-images.githubusercontent.com/78054566/211905075-36179ebd-a69b-447c-b016-ff069d5e0779.png">
+<img width="1105" src="../images/genshin_metal_hud.png">
 
 This feature utilises the new Metal 3 Performance HUD in macOS Ventura to provide you with frame rate, frame time, GPU, and Memory utilisation stats. This can be useful for stress testing the performance of games to find the right balance between quality and performance. 
 
 >__Note__: To show or hide the HUD in-game, you must toggle it from individual app settings in PlayCover while the app is closed. When enabled, the HUD will always show in the top right corner of the window and may obscure some of the content rendered by the app in this area.
 
-<img width="207" alt="Screenshot 2023-01-11 at 2 57 45 PM" src="https://user-images.githubusercontent.com/78054566/211905384-692eee50-6380-4e78-b22d-49251642a6c1.png">
+<img width="207" src="../images/metal_hud_closeup.png">
 
 The following table will provide an in-depth explanation on the Metal 3 Performance HUD:
 
