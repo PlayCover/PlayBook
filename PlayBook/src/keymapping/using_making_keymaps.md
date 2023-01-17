@@ -43,6 +43,14 @@ Closing the Keymapping Editor will automatically **save** any changes you have m
 | Increase button size | Click on the button and press `command ⌘` + `▲` | Increase the size of the button coverage area | 
 | Decrease button size | Click on the button and press `command ⌘` + `▼` | Decrease the size of the button coverage area |
 
+#### Bindable keys
+
+Most keyboard keys can be mapped, including function keys and numeric keypad keys.
+
+In some cases gaming mouse buttons may be mapped, but they will be recognized as the middle mouse button `MMB`.
+
+All keys of [controllers](https://support.apple.com/en-us/HT210414) supported by Apple's [Game Controller API](https://developer.apple.com/documentation/gamecontroller) may be bound. Joystick and D-Pad binding is not supported.
+
 >__Note__: Input that cannot be mapped includes: `fn`, `option`, `command`, `scroll`, `power button`, `eject`, and `volume up`, `volume down` and `mute` if they are standalone keys.
 
 ###### This information is up-to-date as of PlayCover `2.0.2`
