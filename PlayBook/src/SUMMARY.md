@@ -30,11 +30,11 @@
 
 -   [Miscellaneous](./miscellaneous/README.md)
 
-    -   [Blocked Apps](./blocked_apps.md)
-    -   [Configure Entitlements for Jailbreak Bypass](./entitlements.md)
-    -   [Photo Storage](./photo_storage.md)
-    -   [Related Projects and Utilities](./projects_utilities.md)
-    -   [Running Apps with Xcode](./run_with_xcode.md)
+    -   [Blocked Apps](./miscellaneous/blocked_apps.md)
+    -   [Configure Entitlements for Jailbreak Bypass](./miscellaneous/entitlements.md)
+    -   [Photo Storage](./miscellaneous/photo_storage.md)
+    -   [Related Projects and Utilities](./miscellaneous/projects_utilities.md)
+    -   [Running Apps with Xcode](./miscellaneous/run_with_xcode.md)
 
 -   [Building from Source](./building_from_source/README.md)
 
