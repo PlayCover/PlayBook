@@ -23,6 +23,10 @@
     -   [Jailbreak Bypass](./settings/jailbreak_bypass.md)
     -   [Miscellaneous](./settings/miscellaneous.md)
 
+-   [Other features](./other_features/README.md)
+
+    -   [Sideloadly Export](./other_features/sideloadly_export.md)
+
 -   [Building from Source](./building_from_source/README.md)
 
     -   [Why Build From Source?](building_from_source/why_build.md)
