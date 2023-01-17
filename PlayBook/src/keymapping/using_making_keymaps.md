@@ -43,6 +43,6 @@ Closing the Keymapping Editor will automatically **save** any changes you have m
 | Increase button size | Click on the button and press `command ⌘` + `▲` | Increase the size of the button coverage area | 
 | Decrease button size | Click on the button and press `command ⌘` + `▼` | Decrease the size of the button coverage area |
 
->__Note__: Input that cannot be mapped includes: `fn`, `option`, `command`, `scroll`, `power button`, and `eject`.
+>__Note__: Input that cannot be mapped includes: `fn`, `option`, `command`, `scroll`, `power button`, `eject`, and `volume up`, `volume down` and `mute` if they are stand alone keys.
 
 ###### This information is up-to-date as of PlayCover `2.0.2`
