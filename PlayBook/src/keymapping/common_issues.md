@@ -2,7 +2,7 @@
 
 ## Unresponsive Keymapping
 
->__Note__: Most keymapping issues will fix themselves when you update to macOS Ventura 13.1. You can ignore the following information if you have the update installed already. If you are still having issues after updating, you can create a support post on the [_PlayCover Discord_](https://discord.gg/rMv5qxGTGC) to get help.
+>__Note__: Most keymapping issues will fix themselves when you update to macOS Ventura 13.1. You can ignore the following information if you have the update installed already. If you are still having issues after updating, check the issues in [PlayTools](https://github.com/PlayCover/PlayTools) and [PlayCover](https://github.com/PlayCover/PlayCover/issues) before opening a new one. You may create a support post in the [Discussion forums](https://github.com/PlayCover/PlayCover/discussions) or the [_PlayCover Discord_](https://discord.gg/rMv5qxGTGC) for further help.
 
 Occasionally, keymaps may become unresponsive. This may occur if you use `command ⌘` + `tab` to quickly switch between apps before unlocking your mouse. If this happens there are a couple of steps you can try.
 
