@@ -1,1 +1,1 @@
-# Configure Entitlements for Jaibreak Bypass
+# Configure Entitlements for Jailbreak Bypass
