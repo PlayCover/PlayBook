@@ -1,6 +1,6 @@
 # Sideloadly Export
 
-<img width="208" src="../images/export_to_sideloadly.png">
+<img width="300" src="../images/export_to_sideloadly.png">
 
 You may use PlayCover to inject PlayTools to `.ipa` files and directly export them to Sideloadly. This will make keymapping and screen rotation available in Sideloadly signed apps.
 
