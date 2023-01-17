@@ -28,6 +28,14 @@
     -   [Sideloadly Export](./other_features/sideloadly_export.md)
     -   [Account Manager](./other_features/account_manager.md)
 
+-   [Miscellaneous](./miscellaneous/README.md)
+
+    -   [Blocked Apps](./blocked_apps.md)
+    -   [Configure Entitlements for Jaibreak Bypass](./entitlements.md)
+    -   [Photo Storage](./photo_storage.md)
+    -   [Related Projects and Utilies](./projects_utilities.md)
+    -   [Runnning apps with Xcode](./run_with_xcode.md)
+
 -   [Building from Source](./building_from_source/README.md)
 
     -   [Why Build From Source?](building_from_source/why_build.md)
