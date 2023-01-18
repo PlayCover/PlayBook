@@ -36,7 +36,6 @@
     -   [Related Projects and Utilities](./miscellaneous/projects_utilities.md)
     -   [Running Apps with Xcode](./miscellaneous/run_with_xcode.md)
     -   [Issues after Xcode update](./miscellaneous/xcode_update_error.md)
-    -   [Blocked Apps](./miscellaneous/blocked_apps.md)
 
 -   [Building from Source](./building_from_source/README.md)
 
