@@ -19,7 +19,7 @@ Here is what the sections do:
 
 Sandbox rules in `allow` are **always** added into the entitlements, regardless of the status of Jailbreak Bypass. The other ones are only active when JB Bypass is turned on.
 
-By default the app will only get write permissions to its container and its executable. However, it gets full permission to run user-perm Unix-y stuff like forking which is disabled on iOS. It can read more files on the system, as with PlayCover, those apps are Catalyst apps and thus **native to macOS**, not iOS.
+By default, applications running under PlayCover have the same permissions as any other contained macOS applications. This however means that it gets access to syscalls and locations that iOS doesn't normally allow (eg. forking a process or read access to /usr/bin and /usr/sbin).
 
 ## Identifying files and sandbox rules worth adding
 
