@@ -23,3 +23,9 @@ By default, applications running under PlayCover have the same permissions as an
 
 ## Identifying files and sandbox rules worth adding
 
+The following directories contain Apple sandbox files by default. They can prove helpful for writing new sandbox profiles.
+```
+/Library/Sandbox/Profiles
+/System/Library/Sandbox/Profiles
+/usr/share/sandbox
+```
