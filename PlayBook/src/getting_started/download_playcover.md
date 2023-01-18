@@ -18,6 +18,8 @@ You can also [build from source](https://docs.playcover.io/building_from_source/
 
 <img src="../images/playcover_dmg.png" alt="Drag PlayCover in Applications" width="80%">
 
+> __Note__: PlayCover won't work if it isn't in the Applications folder.
+
 - Then double click to open and click `Open` on the system prompt. 
 
 <div style="display:flex;">
@@ -38,7 +40,7 @@ You can also [build from source](https://docs.playcover.io/building_from_source/
 >__Note__: If the in-app Xcode Command Line Tools install fails, follow the steps listed in [_Alternate Xcode Command Line Tools Installation Methods_](./alt_xcode_cli_install.md).
 
 ## Homebrew Cask
-We host a [Homebrew](https://brew.sh) tap with the [PlayCover cask](https://github.com/PlayCover/homebrew-playcover/blob/master/Casks/playcover-community.rb). 
+We host a [Homebrew](https://brew.sh) [tap](https://github.com/PlayCover/homebrew-playcover) with the [PlayCover cask](https://github.com/PlayCover/homebrew-playcover/blob/master/Casks/playcover-community.rb) for stable releases `playcover-community`, as well as the casks for prereleases `playcover-prerelease` and nightlies `playcover-nightly`.
 
 To install:
 1. Tap `PlayCover/playcover` with `brew tap PlayCover/playcover`;
