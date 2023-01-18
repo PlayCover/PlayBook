@@ -31,7 +31,7 @@
 -   [Miscellaneous](./miscellaneous/README.md)
 
     -   [Blocked Apps](./miscellaneous/blocked_apps.md)
-    -   [Configure Entitlements for Jailbreak Bypass](./miscellaneous/entitlements.md)
+    -   [Configuring Entitlements for Jailbreak Bypass](./miscellaneous/entitlements.md)
     -   [In-app Purchases](./miscellaneous/app_purchases.md)
     -   [Photo Storage](./miscellaneous/photo_storage.md)
     -   [Related Projects and Utilities](./miscellaneous/projects_utilities.md)
