@@ -1,4 +1,4 @@
-# Download & Install iOS .ipa files
+# Download, Install, and Update iOS .ipa files
 
 `.ipa` files must be decrypted to add them to PlayCover. Quite often, the app you're looking for will already be decrypted.
 
@@ -34,5 +34,9 @@ If you run into issues, verify that `Xcode Command Line Tools` are installed, se
 Some apps that contain logins like Genshin Impact will require additional steps to work. You can find the instructions in [Troubleshoot App Login Issues](./troubleshoot_login.md).
 
 >__Note__: Not all apps are supported. If you run into issues not covered in this documentation you can ask for help on the [_PlayCover Discord Server_](https://discord.gg/rMv5qxGTGC).
+
+## Updating
+
+To update an app, you can add it to the **App Library** the same way as you first installed it, either by clicking the 'Add app' button to select the `.ipa` file in Finder, or drag and drop it into PlayCover. The new version of the app will replace the old one while keeping all your logins. 
 
 ###### This information is up-to-date as of PlayCover `2.0.2`
