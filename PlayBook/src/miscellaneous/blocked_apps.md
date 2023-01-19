@@ -1,5 +1,5 @@
 # Blocked Apps
-Some apps are blocked by PlayCover in a bundle id filter because they may either cause issues (such as bans) or engage in malicious activity. This list is not exhaustive and may be updated at any time. If you think an app should be added to this list, please open an issue on the [PlayCover GitHub](https://github.com/PlayCover/PlayCover/issues)
+Some apps are blocked by PlayCover with a [bundle id filter](https://github.com/PlayCover/PlayCover/blob/775eede78cf79e62b7fde827822e48a8b0785a13/PlayCover/Model/PlayApp.swift#L178) because they may either cause issues (such as bans) or engage in malicious activity. This list is not exhaustive and may be updated at any time. If you think an app should be added to this list, please open an issue on the [PlayCover GitHub](https://github.com/PlayCover/PlayCover/issues)
 
 ## Blocked games
 These apps are blocked because the user will be inexorably banned. Using them through your Mac and with PlayCover or PlayTools may be detected as either a jailbroken client or a modified app. It is not a question of if, but when you will get banned. 

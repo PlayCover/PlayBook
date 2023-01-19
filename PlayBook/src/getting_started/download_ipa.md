@@ -37,6 +37,6 @@ Some apps that contain logins like Genshin Impact will require additional steps 
 
 ## Updating
 
-To update an app, you can add it to the **App Library** the same way as you first installed it, either by clicking the 'Add app' button to select the `.ipa` file in Finder, or drag and drop it into PlayCover. The new version of the app will replace the old one while keeping all your logins. 
+To update an app, you can add it to the **App Library** the same way as you first installed it, either by clicking the 'Add app' button to select the `.ipa` file in Finder, or drag and drop it into PlayCover. The new version of the app will replace the old one while keeping all your logins and data. 
 
 ###### This information is up-to-date as of PlayCover `2.0.2`
