@@ -27,6 +27,7 @@
 
     -   [Sideloadly Export](./other_features/sideloadly_export.md)
     -   [Account Manager](./other_features/account_manager.md)
+    -   [PlayCover Settings](./other_features/playcover_settings.md)
 
 -   [Miscellaneous](./miscellaneous/README.md)
 
