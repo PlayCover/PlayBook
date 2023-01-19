@@ -3,3 +3,4 @@
 -   [Sideloadly Export](./sideloadly_export.md)
 -   [Account Manager](./account_manager.md)
 -   [PlayCover Settings](./playcover_settings.md)
+-   [IPA Library](./ipa_library.md)
