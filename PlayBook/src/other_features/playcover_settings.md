@@ -1,14 +1,23 @@
 # PlayCover Settings
-PlayCover has some settings you customize to your preference.
+PlayCover has a few settings you customize to your preference.
 
-## Updates
-Can toggle automatic checking for updates or check for update right away manually. 
+## PlayCover Updates
+
+You can turn on or off automatic updates or manually check for version updates to the PlayCover app.
+
+<img width="450" src="../images/settings_updates.png">
 
 ## IPA Sources
-Manage IPA source URLs
+You can add, delete, move, and refresh sources for your IPA Library. A green checkmark icon indicates the source URL is valid and working properly. 
+
+<img width="700" src="../images/settings_ipa_sources.png">
 
 ## Install 
-Configure preferences for installing apps
+You can choose the default app install behavior to ask you to install PlayTools each time or always install.
+
+<img width="450" src="../images/settings_install.png">
 
 ## Uninstall 
-Configure preferences for uninstalling apps
+You can choose the default app uninstall behavior and well as prune files. Prune files will remove all unused files including settings, entitlements, keymappings, and app data.
+
+<img width="500" src="../images/settings_uninstall.png">
