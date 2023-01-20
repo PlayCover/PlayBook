@@ -34,11 +34,11 @@ You may need to change your resolution depending on what app you are using. **Au
 >__Note__: Resolution has a significant impact on graphical quality and performance. Using higher resolutions will improve visuals at the cost of performance, and using lower resolutions will improve performance at the cost of visual quality. 
 
 ### Updating your apps
-If you installed an app on an older build of PlayCover (before `2.0.0`) and try to update the same app to a newer version on a newer build of PlayCover (`2.0.0` and after), you will encounter an issue where the newer version of the app will fail to replace the older version and two of the same app icons will be present at the same time. 
+If you installed an app on an older build of PlayCover (before `2.0.0`) and try to update the same app to a newer version on a newer build of PlayCover (`2.0.0` and after), you may encounter an issue where the newer version of the app will fail to replace the older version and two of the same app icons will be present at the same time. This will mainly happen with apps that have a space in their name.
 
 <img width="200" src="../images/duplicate_genshin.png">
 
-When this happens, you follow these steps to safely uninstall the older version without losing your logins and data.
+When this happens, follow these steps to safely uninstall the older version without losing your logins and data.
 
 1. Go to `Menu Bar` > `PlayCover` > `Settings...` > `Uninstall`
 2. Make sure the **Show warning popup** box is checked
