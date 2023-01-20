@@ -20,4 +20,23 @@ If you want to delete a source, you can use the menu in `Menu Bar` > `PlayCover`
 
 <img width="700" src="../images/settings_ipa_sources.png">
 
+## How to make a source
+IPA sources are JSON files which have one entry per app, with the following structure:
+```
+[
+    {
+        "bundleID": "xyz.skitty.Aidoku",
+        "name": "Aidoku",
+        "version": "0.5",
+        "itunesLookup": "",
+        "link": "https://github.com/Aidoku/Aidoku/releases/download/v0.5/Aidoku.ipa"
+    }
+]
+```
+The `itunesLookup` entry is optional, and it may be filled in with an App Store URL, enabling the Library to show the app icon of the corresponding app. The `link` entry must end in `.ipa` to be valid.
+
+Please check our IPA source JSON file [template](https://github.com/PlayCover/PlayBook/blob/master/resources/template_ipa_library.json).
+
+You may use [IPA Source Generator](https://github.com/ohaiibuzzle/PlaySourceTool) to aid you.
+
 ###### This information is up-to-date as of PlayCover 2.0.3
