@@ -15,6 +15,12 @@ Installing apps from the IPA Library is easy, simply double click on the app you
 
 <img width="1000" src="../images/ipa_downloading.png">
 
+Each app will have a circular icon indicating whether:
+- The app is not installed (downward arrow)
+- The app is installed (check mark)
+    - Installed, but the source version is newer (check mark with a warning sign)
+    - Installed, but the source version is older (check mark with with a cross mark)
+
 ## Managing Sources
 If you want to delete a source, you can use the menu in `Menu Bar` > `PlayCover` > `Settings...` > `IPA Sources`. Here you can also add, move, and refresh sources. A green checkmark means the source URL is valid and working properly.
 
