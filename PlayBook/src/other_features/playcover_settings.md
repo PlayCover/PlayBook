@@ -17,7 +17,7 @@ You can add, delete, move, and refresh sources for your IPA Library. A green che
 <img width="700" src="../images/settings_ipa_sources.png">
 
 ## Install 
-You can choose the default app install behavior to ask you to install PlayTools each time or always install.
+You can set the app install behavior to either show a prompt asking whether or not to install PlayTools, or proceed automatically with a preset installation setting, always/never install PlayTools.
 
 <img width="450" src="../images/settings_install.png">
 
