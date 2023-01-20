@@ -40,4 +40,7 @@ This feature is meant for development and testing purposes only, and should not 
 
 By default, PlayTools are injected into the app when you add it to the App Library. PlayTools allows you to use keymapping, mouse mapping, change iOS device identifier, set custom resolutions, and more. However, these features may not be necessary for certain apps and may even cause issues. If the app you are using is not working properly as expected, you can try removing PlayTools.
 
+If an app doesn't have PlayTools, it will show with a warning sign alongside its name.
+<img width="110" src="../images/no-playtools.png">
+
 ###### This information is up-to-date as of PlayCover `2.0.2`
