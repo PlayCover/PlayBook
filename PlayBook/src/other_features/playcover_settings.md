@@ -27,9 +27,12 @@ You can customize the default app uninstall behavior by defining which files or 
 `Clear data` will clear the following directories:
 ```
 ~/Library/Application Scripts/<com.bundle.id>
-~/Library/Caches/<com.ndemiccreations.plagueinc>
-~/Library/Containers/<com.ndemiccreations.plagueinc>
-~/Library/HTTPStorages/<com.ndemiccreations.plagueinc>
+~/Library/Caches/<com.bundle.id>
+~/Library/Containers/<com.bundle.id>
+~/Library/HTTPStorages/<com.bundle.id>
+```
+`Remove keymap`, `Remove settings` and `Remove entitlements` clear the following directories respectively:
+```
 ```
 
 <img width="500" src="../images/settings_uninstall.png">
