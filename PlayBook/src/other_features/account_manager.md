@@ -1,6 +1,8 @@
 # Account Manager
 
-Account Manager lets you store the login details of an account so you can effortlessly switch between different accounts without the need to disable System Integrity Protection (SIP) every time. **Currently, this feature only works for Genshin Impact.**
+Account Manager lets you store the login details of **multiple accounts** so you can effortlessly switch between them without the need to disable System Integrity Protection (SIP) each time. 
+
+>__Note__: Currently, this feature only works for Genshin Impact.
 
 ## Store Account
 
@@ -24,7 +26,7 @@ In the selection menu, you can choose an account you have previously stored to s
 
 <img width="800" src="../images/select_account_prompt.png">
 
-You can restore an account by clicking on its name, doing so will replace the previous account that you used to sign in. If you have not stored the previous account, you will not be able to easily switch back to it afterwards, and will have to disable SIP and modify boot-args again in order to login to that account.
+You can restore an account by clicking on its name, doing so will replace the previous account that you used to sign in. If you have not stored the previous account, you will not be able to easily switch back to it afterwards, and you will have to disable SIP and modify boot-args again in order to login to that account.
 
 <img width="800" src="../images/restore_account_prompt.png">
 
@@ -42,4 +44,4 @@ You can delete an account by clicking on its name. If you delete an account, you
 
 <img width="800" src="../images/delete_account_confirm.png">
 
-###### This information is up-to-date as of PlayCover 2.0.2
+###### This information is up-to-date as of PlayCover 2.0.3
