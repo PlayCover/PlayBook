@@ -25,3 +25,5 @@ You can choose the default app install behavior to ask you to install PlayTools 
 You can choose the default app uninstall behavior and well as prune files. Prune files will remove all unused files including settings, entitlements, keymappings, and app data.
 
 <img width="500" src="../images/settings_uninstall.png">
+
+###### This information is up-to-date as of PlayCover 2.0.3
