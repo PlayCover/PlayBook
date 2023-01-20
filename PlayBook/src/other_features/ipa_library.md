@@ -5,7 +5,7 @@ You can use the IPA Library to install apps from `.ipa` sources you have added.
 
 ## Adding Sources
 
-To add a source, click on the **Add source** button to enter a valid source link. 
+To add a source, click on the **Add source** button to enter a valid source link. These may be web based, or local links such as `file:///Users/<myUsername>/Downloads/mysource.json`.
 
 <img width="750" src="../images/ipa_add_source.png">
 
