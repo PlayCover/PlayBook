@@ -34,6 +34,9 @@ You can customize the default app uninstall behavior by defining which files or 
 ```
 `Remove keymap`, `Remove settings` and `Remove entitlements` clear the following directories respectively:
 ```
+~/Library/Containers/io.playcover.PlayCover/Keymapping/<com.bundle.id>.plist
+~/Library/Containers/io.playcover.PlayCover/App Settings/<com.bundle.id>.plist
+~/Library/Containers/io.playcover.PlayCover/Entitlements/<com.bundle.id>.plist
 ```
 
 <img width="500" src="../images/settings_uninstall.png">
