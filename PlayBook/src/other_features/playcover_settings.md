@@ -22,7 +22,9 @@ You can set the app install behavior to either show a prompt asking whether or n
 <img width="450" src="../images/settings_install.png">
 
 ## Uninstall 
-You can choose the default app uninstall behavior and well as prune files. Prune files will remove all unused files including settings, entitlements, keymappings, and app data.
+You can customize the default app uninstall behavior by defining which files or directories should be deleted alongside the app.
+
+There is also a prune function, which will clear all data from previously installed apps that have since been uninstalled. 
 
 <img width="500" src="../images/settings_uninstall.png">
 
