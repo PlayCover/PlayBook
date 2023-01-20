@@ -43,5 +43,6 @@ By default, PlayTools are injected into the app when you add it to the App Libra
 If an app doesn't have PlayTools, it will show with a warning sign alongside its name.
 
 <img width="110" src="../images/no-playtools.png">
+<img width="488" src="../images/no-playtools-settings-view.png"> 
 
 ###### This information is up-to-date as of PlayCover `2.0.2`
