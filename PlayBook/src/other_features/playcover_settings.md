@@ -30,6 +30,7 @@ You can customize the default app uninstall behavior by defining which files or 
 ~/Library/Caches/<com.bundle.id>
 ~/Library/Containers/<com.bundle.id>
 ~/Library/HTTPStorages/<com.bundle.id>
+~/Library/Saved Application State/<com.bundle.id>
 ```
 `Remove keymap`, `Remove settings` and `Remove entitlements` clear the following directories respectively:
 ```
