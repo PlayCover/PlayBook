@@ -4,7 +4,9 @@
 
 ### Enable Discord activity
 
-This option enables/disables Discord RPC, which allows you to display the games you're playing in PlayCover in your Discord status seamlessly. If you wish to further customise the appearence of this status, you can use the `Custom Discord activity` values.
+This option enables/disables Discord RPC, which allows you to display the games you're playing in PlayCover in your Discord status seamlessly. If you wish to further customise the appearence of this status, you can use the `Custom Discord activity` values as shown in the picture below.
+
+<img width="543" src="../images/custom-discord-activity.png">
 
 ### Metal 3 Performance HUD (macOS 13+)
 
