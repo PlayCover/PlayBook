@@ -1,5 +1,5 @@
 # PlayCover Settings
-PlayCover has a few settings you customize to your preference. 
+PlayCover has a few settings you may customize to your preference. 
 
 <img width="200" src="../images/playcover_settings.png">
 
