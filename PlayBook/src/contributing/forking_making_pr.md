@@ -34,14 +34,22 @@ If your PR adds any new strings that aren't logs or errors, they must be correct
 
 When possible it is recommended to supply a clear description of your PR. If your PR contains UI changes, include screenshots as well.
 
+## Opening a Pull Request
+
+If you have a suggestion that could improve [PlayCover](https://github.com/PlayCover/PlayCover) or any other of its [repositories](https://github.com/PlayCover), please fork the corresponding repository and create a pull request. Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 ## Reviews & Merging
 
 It may take some time for your code to be reviewed or merged. Remember, PlayCover is an open-source project, and everyone is contributing out of their own free time. There are therefore periods where there will be no one available to review or merge your code for days or potentially weeks. Remain patient, it will be looked at in time.
 
 When you receive a review, make sure to courteously and professionally respond to concerns or feedback. Always keep your responces in line with the [Code of Conduct](./code_of_conduct.md). Failure to compile with these rules will result in your PR getting rejected, and potentially having any future contributions banned.
 
-After a few smaller scale PRs (Minor tweaks, UI fixes, etc...), you may recieve a `Minor Contributor` role in the [Discord](https://discord.gg/rMv5qxGTGC) which will also give you access to `#contributors-chat`. 
-
-Larger PRs (Major refactors, implementing core features, etc...), may grant you the role of `Major Contributor`.
+After a few pull requests (Minor tweaks, UI fixes, Major refactors, implementing core features, etc...), you may recieve a `Contributor` role in the [Discord](https://discord.gg/rMv5qxGTGC) which will also give you access to `#contributors-chat`.
 
 All contributors are credited on the [website](https://playcover.io/contributors/).
