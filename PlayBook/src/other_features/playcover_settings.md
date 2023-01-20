@@ -24,8 +24,16 @@ You can set the app install behavior to either show a prompt asking whether or n
 ## Uninstall 
 You can customize the default app uninstall behavior by defining which files or directories should be deleted alongside the app.
 
-There is also a prune function, which will clear all data from previously installed apps that have since been uninstalled. 
+`Clear data` will clear the following directories:
+```
+~/Library/Application Scripts/<com.bundle.id>
+~/Library/Caches/<com.ndemiccreations.plagueinc>
+~/Library/Containers/<com.ndemiccreations.plagueinc>
+~/Library/HTTPStorages/<com.ndemiccreations.plagueinc>
+```
 
 <img width="500" src="../images/settings_uninstall.png">
+
+There is also a prune function, which will clear all data from previously installed apps that have since been uninstalled. 
 
 ###### This information is up-to-date as of PlayCover 2.0.3
