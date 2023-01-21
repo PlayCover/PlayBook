@@ -6,3 +6,4 @@
 -   [Photo Storage](./photo_storage.md)
 -   [Related Projects and Utilities](./projects_utilities.md)
 -   [Running Apps with Xcode](./run_with_xcode.md)
+-   [Issues after an Xcode Update](./xcode_update_error.md)

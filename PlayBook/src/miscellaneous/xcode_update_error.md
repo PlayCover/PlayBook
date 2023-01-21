@@ -1,4 +1,4 @@
-# Issues after Xcode update
+# Issues after an Xcode Update
 
 After updating or installing Xcode, you may get an error saying `Not in Application folder` or something to the sort. You can fix this using one of these things:
 
