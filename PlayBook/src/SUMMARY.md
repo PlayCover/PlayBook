@@ -8,7 +8,6 @@
     -   [Download, Install, and Update iOS .ipa files](./getting_started/download_ipa.md)
     -   [Troubleshoot App Login Issues](./getting_started/troubleshoot_login.md)
     -   [Migrating from an Older Version](./getting_started/migrating.md)
-    -   [Alternate Xcode Command Line Tools Installation Methods](./getting_started/alt_xcode_cli_install.md)
 
 -   [Keymapping](./keymapping/README.md)
 
@@ -38,7 +37,6 @@
     -   [Photo Storage](./miscellaneous/photo_storage.md)
     -   [Related Projects and Utilities](./miscellaneous/projects_utilities.md)
     -   [Running Apps with Xcode](./miscellaneous/run_with_xcode.md)
-    -   [Issues after an Xcode Update](./miscellaneous/xcode_update_error.md)
 
 -   [Building from Source](./building_from_source/README.md)
 

@@ -28,17 +28,6 @@ You can also [build from source](https://docs.playcover.io/building_from_source/
 <img src="../images/open_prompt.png" alt="Open Prompt" width="40%" style="align-self:start;">
 </div>
 
-- When you first run the app you may be met with a screen asking to install `Xcode Command Line Tools`. 
-    - Press `Install` in the app
-    ![Install Prompt](../images/install_prompt.png)
-    - Authenticate with Touch ID
-
-    <img src="../images/auth_prompt.png" alt="Auth" width="50%">
-
-    - Wait for the installation to finish (This make take some time depending on your internet speed)
-
->__Note__: If the in-app Xcode Command Line Tools install fails, follow the steps listed in [_Alternate Xcode Command Line Tools Installation Methods_](./alt_xcode_cli_install.md).
-
 ## Homebrew Cask
 We host a [Homebrew](https://brew.sh) [tap](https://github.com/PlayCover/homebrew-playcover) with the [PlayCover cask](https://github.com/PlayCover/homebrew-playcover/blob/master/Casks/playcover-community.rb) for stable releases `playcover-community`, as well as the casks for prereleases `playcover-prerelease` and nightlies `playcover-nightly`.
 
