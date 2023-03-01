@@ -40,5 +40,19 @@
         "version": "1.4-alpha.7",
         "itunesLookup": "",
         "link": "https://github.com/yattee/yattee/releases/download/v1.4-alpha.7/Yattee-1.4-alpha.7-iOS.ipa"
+    },
+    {
+        "bundleID": "net.yura.domination",
+        "name": "Domination",
+        "version": "1.2.5",
+        "itunesLookup": "",
+        "link": "https://master.dl.sourceforge.net/project/domination/Domination/1.2.5/Domination-4.ipa?viasf=1"
+    },
+    {
+        "bundleID": "net.kdt.pojavlauncher",
+        "name": "Pojav Launcher",
+        "version": "2.1.3",
+        "itunesLookup": "",
+        "link": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.1.3/net.kdt.pojavlauncher-2.1.3.ipa"
     }
 ]
