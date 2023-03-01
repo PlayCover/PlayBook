@@ -16,7 +16,7 @@ PlayChain allows apps to have partial access to Keychain services without changi
 
 # How to PlayChain?
 
-PlayChain can be enabled for each individual app by going to their Settings > Misc and enable PlayChain
+PlayChain can be enabled for each individual app by going to their Settings > Bypasses > Enable PlayChain
 
 The app's Keychain entries will now exist at the PlayCover container folder > PlayChain > [bundle ID]
 
