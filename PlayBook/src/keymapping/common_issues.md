@@ -11,7 +11,7 @@ Occasionally, keymaps may become unresponsive on macOS versions older than 13.1.
 3. If the above doesn't work, restart the app.
 4. If it still doesn't work after restarting the app, save any work you have open and restart your Mac. 
 
-## Key presses are working, but doesn't touch where you want in-game
+## Key presses are working, but don't touch where you want in-game
 
 This is likely caused by using a keymap file not made for your app's aspect ratio. There are multiple ways to solve this problem:
 * You can change the aspect ratio to one that matches the keymap by going to your app settings (see [Graphics](../settings/graphics.md))
