@@ -19,7 +19,8 @@
     --sidebar-part-text-color: #838383;
     --sidebar-part-bg-color: #d4d4d4;
     --sidebar-text-active: #ffffff;
-    --sidebar-hover-color: rgb(0, 0, 0, 4%);
+    --sidebar-hover-color: rgb(0, 0, 0, 3%);
+    --sidebar-active-color: rgb(0, 0, 0, 6%);
     --sidebar-border: rgb(0, 0, 0, 8%);
     --sidebar-shadow: rgb(0, 0, 0, 2%);
     --sidebar-non-existant: #b8b8b8;
@@ -30,7 +31,8 @@
     --hljs-background-color: rgb(68, 159, 151, 10%);
 
     --icon-button-color: #878787;
-    --icon-button-hover-color: rgb(0, 0, 0, 0.02);
+    --icon-button-hover-color: #f3f3f3;
+    --icon-button-active-color: #ededed;
 
     --hr-bg: rgb(0, 0, 0, 6%);
 
@@ -46,9 +48,9 @@
     --quote-bg: rgb(68, 159, 151, 10%);
     --quote-color: #449f97;
 
-    --table-border-color: #f3f3f3;
-    --table-header-bg: #f3f3f3;
-    --table-alternate-bg: #f3f3f3;
+    --table-border-color: #c6dbd9;
+    --table-header-bg: rgb(50, 116, 110, 8%);
+    --table-alternate-bg: rgb(50, 116, 110, 8%);
 
     --searchbar-border-color: rgb(0, 0, 0, 8%);
     --searchbar-bg: #f3f3f3;
@@ -74,7 +76,8 @@
     --sidebar-part-text-color: #a7a7a7;
     --sidebar-part-bg-color: #5e5e5e;
     --sidebar-text-active: #ffffff;
-    --sidebar-hover-color: rgb(255, 255, 255, 4%);
+    --sidebar-hover-color: rgb(255, 255, 255, 3%);
+    --sidebar-active-color: rgb(255, 255, 255, 6%);
     --sidebar-border: rgb(255, 255, 255, 8%);
     --sidebar-shadow: rgb(0, 0, 0, 40%);
     --sidebar-non-existant: #686868;
@@ -85,7 +88,8 @@
     --hljs-background-color: rgb(50, 116, 110, 8%);
 
     --icon-button-color: #ababab;
-    --icon-button-hover-color: rgb(255, 255, 255, 0.02);
+    --icon-button-hover-color: #1f1f1f;
+    --icon-button-active-color: #242424;
 
     --hr-bg: rgb(255, 255, 255, 6%);
 
@@ -101,9 +105,9 @@
     --quote-bg: rgb(50, 116, 110, 8%);
     --quote-color: #32746e;
 
-    --table-border-color: #232634;
-    --table-header-bg: #292c3c;
-    --table-alternate-bg: #232634;
+    --table-border-color: #343b3a;
+    --table-header-bg: rgb(50, 116, 110, 8%);
+    --table-alternate-bg: rgb(50, 116, 110, 8%);
 
     --searchbar-border-color: rgb(255, 255, 255, 8%);
     --searchbar-bg: #242424;

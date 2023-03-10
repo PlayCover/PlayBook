@@ -45,6 +45,9 @@ main {
 
 /* make wide tables scroll if they overflow */
 .table-wrapper {
+  border: 1px solid var(--table-border-color);
+  box-shadow: 0 1px 1px rgb(0, 0, 0, 10%);
+  border-radius: 6px;
   overflow-x: auto;
 }
 
@@ -177,13 +180,13 @@ h6:target::before {
 }
 
 table {
-  margin: 0 auto;
+  width: 100%;
   border-collapse: collapse;
+  border-radius: 6px;
 }
 
 table td {
-  padding: 3px 20px;
-  border: 1px var(--table-border-color) solid;
+  padding: 4px 20px;
 }
 
 table thead {
@@ -196,14 +199,26 @@ table thead td {
 }
 
 table thead th {
-  padding: 3px 20px;
+  padding: 8px 20px;
 }
 
 table thead tr {
-  border: 1px var(--table-header-bg) solid;
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  color: var(--quote-color);
+  border-bottom: 1px solid var(--table-border-color);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 10%);
+}
+
+table tbody tr:not(:last-child) {
+  border-bottom: 1px solid var(--table-border-color);
 }
 
 /* Alternate background colors for rows */
+table tbody tr:nth-child(2n) {
+  background: var(--table-alternate-bg);
+}
+
 table tbody tr:nth-child(2n) {
   background: var(--table-alternate-bg);
 }
@@ -213,6 +228,10 @@ blockquote {
   padding: 4px 20px;
   color: var(--quote-color);
   background: var(--quote-bg);
+  border: 1px solid var(--table-border-color);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 10%);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 10%);
+  border-radius: 6px;
 }
 
 :not(.footnote-definition) + .footnote-definition,
