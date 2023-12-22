@@ -33,7 +33,7 @@ If you run into issues, verify that `Xcode Command Line Tools` are installed, se
 
 Some apps that contain logins like Genshin Impact will require additional steps to work. You can find the instructions in [Troubleshoot App Login Issues](./troubleshoot_login.md).
 
-> **Note**: Not all apps are supported. If you run into issues not covered in this documentation you can ask for help on the [_PlayCover Discord Server_](https://discord.gg/rMv5qxGTGC).
+> **Note**: Not all apps are supported. If you run into issues not covered in this documentation you can ask for help on the [_PlayCover Discord Server_](https://discord.gg/RNCHsQHr3S).
 
 ## Updating
 
