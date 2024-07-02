@@ -1,5 +1,12 @@
 [
     {
+        "bundleID": "com.io.playcover.PCTT",
+        "name": "PCTT",
+        "version": "1.0",
+        "itunesLookup": "",
+        "link": "https://github.com/PlayCover/PlayCover-Test-Toolkit/releases/download/1.0/PCTT.ipa"
+    },
+    {
         "bundleID": "xyz.skitty.Aidoku",
         "name": "Aidoku",
         "version": "0.5",
