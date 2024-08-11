@@ -1,6 +1,6 @@
 # Configuring Entitlements for Jailbreak Bypass
 
-PlayCover contains a set of rules to be used on an app under `PlayCover/Rules` in the source code and `PlayCover.app/Contents/Resources` in the built app. There is a default rule named `default.yam` and there may be rules meant for specific apps, case in which they will be named after their bundle id as `com.mycompany.myapp.yaml`.
+PlayCover contains a set of rules to be used on an app under `PlayCover/Rules` in the source code and `PlayCover.app/Contents/Resources` in the built app. There is a default rule named `default.yaml` and there may be rules meant for specific apps, case in which they will be named after their bundle id as `com.mycompany.myapp.yaml`.
 
 An app will use the set of rules meant for it, or the default set if the former one does not exist.
 
