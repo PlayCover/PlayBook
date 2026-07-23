@@ -1,6 +1,6 @@
 # Migrating
 
-This page contains instructions on how to migrate/update from an older version of PlayCover to version 2.0 and newer. You can check your current version from the menu bar by clicking `PlayCover` > `About PlayCover`
+This page contains instructions on how to migrate/update from an older version of PlayCover to version 2.0 and newer. You can check your current version from the menu bar by clicking `PlayCover` > `About PlayCover`. To update version 3.x and higher, such as the [Nightly Build](https://nightly.link/playcover/playcover/workflows/2.nightly_release/develop?status=completed), simply drag and drop the new version to your Applications folder. It is recommended for all users to exclusively use the [Nightly Build](https://nightly.link/playcover/playcover/workflows/2.nightly_release/develop?status=completed), as 3.x Stable is no longer maintained until further notice. 
 
 <img width="200" src="../images/about_playcover.png">
 
