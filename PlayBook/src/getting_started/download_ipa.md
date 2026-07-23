@@ -12,7 +12,10 @@ There are many sources online for decrypted `.ipa` files. Listed below are some 
 
 |                          Icon                           |        Website Name         |                               Link                                |
 | :-----------------------------------------------------: | :-------------------------: | :---------------------------------------------------------------: |
-|  <img width="50" src="../images/decrypt_day_logo.png">  |      Decrypt IPA Store      |                [decrypt.day](https://decrypt.day/)                |
+|  <img width="50" src="../images/decrypt_day_logo.png">  |     Decrypt IPA Store       |                [decrypt.day/home](https://decrypt.day/home )      |
+|                                                         |     Decrypt IPA fallback 1  |                [ipa.un3fy.dev](https://ipa.und3fy.dev/)           |
+|                                                         |     Decrypt IPA fallback 2  |                [ipastore.app](https://ipastore.app/)              |
+|                                                         |                             |                                                                   |
 | <img width="50" src="../images/arm_converter_logo.png"> | Decrypted iOS IPA App Store | [armconverter.com](https://armconverter.com/decryptedappstore/us) |
 
 > **Note**: These are external sites and we cannot verify the quality or safety of the downloads. Use at your own risk.
