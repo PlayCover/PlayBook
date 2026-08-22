@@ -20,6 +20,7 @@
   - [Keymapping](./settings/keymapping.md)
   - [Graphics](./settings/graphics.md)
   - [Jailbreak Bypass](./settings/jailbreak_bypass.md)
+  - [Microphone Permission](./settings/microphone.md)
   - [Miscellaneous](./settings/miscellaneous.md)
 
 - [Other features](./other_features/README.md)
