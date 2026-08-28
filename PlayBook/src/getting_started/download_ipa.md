@@ -17,6 +17,7 @@ There are many sources online for decrypted `.ipa` files. Listed below are some 
 |                                                         |     Decrypt IPA fallback 2  |                [ipastore.app](https://ipastore.app/)              |
 |                                                         |                             |                                                                   |
 | <img width="50" src="../images/arm_converter_logo.png"> | Decrypted iOS IPA App Store | [armconverter.com](https://armconverter.com/decryptedappstore/us) |
+| <img width="50" src="https://static.maclub.net/20260323/8bd827b27e5e8f810cd04093238eaf6e8225361943e4037af3d70e934aa72921.png"> | Maclub | [maclub.net](https://www.maclub.net) |
 
 > **Note**: These are external sites and we cannot verify the quality or safety of the downloads. Use at your own risk.
 
