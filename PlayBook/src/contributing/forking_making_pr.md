@@ -50,6 +50,6 @@ It may take some time for your code to be reviewed or merged. Remember, PlayCove
 
 When you receive a review, make sure to courteously and professionally respond to concerns or feedback. Always keep your responces in line with the [Code of Conduct](./code_of_conduct.md). Failure to compile with these rules will result in your PR getting rejected, and potentially having any future contributions banned.
 
-After a few pull requests (Minor tweaks, UI fixes, Major refactors, implementing core features, etc...), you may recieve a `Contributor` role in the [Discord](https://discord.gg/rMv5qxGTGC) which will also give you access to `#contributors-chat`.
+After a few pull requests (Minor tweaks, UI fixes, Major refactors, implementing core features, etc...), you may recieve a `Contributor` role in the [Discord](https://discord.com/invite/playcover-871829896492642387) which will also give you access to `#contributors-chat`.
 
 All contributors are credited on the [website](https://playcover.io/contributors/).
