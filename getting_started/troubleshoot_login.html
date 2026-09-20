@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Troubleshoot App Login Issues - PlayBook</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../Introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="../getting_started/index.html"><strong aria-hidden="true">1.</strong> Getting Started</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../getting_started/download_playcover.html"><strong aria-hidden="true">1.1.</strong> Download & Install PlayCover</a></li><li class="chapter-item expanded "><a href="../getting_started/download_ipa.html"><strong aria-hidden="true">1.2.</strong> Download, Install, and Update iOS .ipa files</a></li><li class="chapter-item expanded "><a href="../getting_started/troubleshoot_login.html" class="active"><strong aria-hidden="true">1.3.</strong> Troubleshoot App Login Issues</a></li><li class="chapter-item expanded "><a href="../getting_started/migrating.html"><strong aria-hidden="true">1.4.</strong> Migrating from an Older Version</a></li></ol></li><li class="chapter-item expanded "><a href="../keymapping/index.html"><strong aria-hidden="true">2.</strong> Keymapping</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../keymapping/using_making_keymaps.html"><strong aria-hidden="true">2.1.</strong> Using & Making Keymaps</a></li><li class="chapter-item expanded "><a href="../keymapping/import_export_keymaps.html"><strong aria-hidden="true">2.2.</strong> Importing & Exporting Keymaps</a></li><li class="chapter-item expanded "><a href="../keymapping/common_issues.html"><strong aria-hidden="true">2.3.</strong> Common Issues</a></li></ol></li><li class="chapter-item expanded "><a href="../settings/index.html"><strong aria-hidden="true">3.</strong> Settings</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../settings/keymapping.html"><strong aria-hidden="true">3.1.</strong> Keymapping</a></li><li class="chapter-item expanded "><a href="../settings/graphics.html"><strong aria-hidden="true">3.2.</strong> Graphics</a></li><li class="chapter-item expanded "><a href="../settings/jailbreak_bypass.html"><strong aria-hidden="true">3.3.</strong> Jailbreak Bypass</a></li><li class="chapter-item expanded "><a href="../settings/miscellaneous.html"><strong aria-hidden="true">3.4.</strong> Miscellaneous</a></li></ol></li><li class="chapter-item expanded "><a href="../other_features/index.html"><strong aria-hidden="true">4.</strong> Other features</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../other_features/sideloadly_export.html"><strong aria-hidden="true">4.1.</strong> Sideloadly Export</a></li><li class="chapter-item expanded "><a href="../other_features/account_manager.html"><strong aria-hidden="true">4.2.</strong> Account Manager</a></li><li class="chapter-item expanded "><a href="../other_features/playcover_settings.html"><strong aria-hidden="true">4.3.</strong> PlayCover Settings</a></li><li class="chapter-item expanded "><a href="../other_features/ipa_library.html"><strong aria-hidden="true">4.4.</strong> IPA Library</a></li></ol></li><li class="chapter-item expanded "><a href="../miscellaneous/index.html"><strong aria-hidden="true">5.</strong> Miscellaneous</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../miscellaneous/blocked_apps.html"><strong aria-hidden="true">5.1.</strong> Blocked Apps</a></li><li class="chapter-item expanded "><a href="../miscellaneous/entitlements.html"><strong aria-hidden="true">5.2.</strong> Configuring Entitlements for Jailbreak Bypass</a></li><li class="chapter-item expanded "><a href="../miscellaneous/app_purchases.html"><strong aria-hidden="true">5.3.</strong> In-app Purchases</a></li><li class="chapter-item expanded "><a href="../miscellaneous/playchain.html"><strong aria-hidden="true">5.4.</strong> PlayChain</a></li><li class="chapter-item expanded "><a href="../miscellaneous/photo_storage.html"><strong aria-hidden="true">5.5.</strong> Photo Storage</a></li><li class="chapter-item expanded "><a href="../miscellaneous/projects_utilities.html"><strong aria-hidden="true">5.6.</strong> Related Projects and Utilities</a></li><li class="chapter-item expanded "><a href="../miscellaneous/run_with_xcode.html"><strong aria-hidden="true">5.7.</strong> Running Apps with Xcode</a></li></ol></li><li class="chapter-item expanded "><a href="../building_from_source/index.html"><strong aria-hidden="true">6.</strong> Building from Source</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../building_from_source/why_build.html"><strong aria-hidden="true">6.1.</strong> Why Build From Source?</a></li><li class="chapter-item expanded "><a href="../building_from_source/install_prerequisites.html"><strong aria-hidden="true">6.2.</strong> Install Prerequisites</a></li><li class="chapter-item expanded "><a href="../building_from_source/building.html"><strong aria-hidden="true">6.3.</strong> Building</a></li></ol></li><li class="chapter-item expanded "><a href="../contributing/index.html"><strong aria-hidden="true">7.</strong> Contributing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../contributing/forking_making_pr.html"><strong aria-hidden="true">7.1.</strong> Forking & Making PRs</a></li><li class="chapter-item expanded "><a href="../contributing/code_of_conduct.html"><strong aria-hidden="true">7.2.</strong> Code of Conduct</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                    
+
+                    <div class="right-buttons">
+                        <a href="https://github.com/PlayCover/PlayBook" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/PlayCover/PlayBook/edit/master/PlayBook/src/getting_started/troubleshoot_login.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="troubleshoot-app-login-issues"><a class="header" href="#troubleshoot-app-login-issues">Troubleshoot App Login Issues</a></h1>
+<p>Follow these instructions to fix issues preventing you from logging in to apps like Genshin Impact. As always, if you run into issues not covered in the documentation, you can ask for help on the <a href="https://discord.gg/rMv5qxGTGC">PlayCover Discord Server</a>.</p>
+<blockquote>
+<p><strong>Note</strong>: The instructions below use Genshin Impact as an example, but the same process will work for a wide range of apps.</p>
+</blockquote>
+<ol>
+<li>
+<p>Disable SIP (System Integrity Protection)</p>
+<ul>
+<li>First shut down your Mac completely so the screen is black and all other lights are off</li>
+<li>Press down and hold the power/Touch ID button until <code>Loading startup options</code> appears</li>
+<li>Select <code>Options</code> and continue
+<ul>
+<li>If prompted, select the correct storage disk</li>
+</ul>
+</li>
+<li>Log in with your administrator account </li>
+<li>When <code>Utilities</code> appears in the menu bar, click on it and choose <code>Terminal</code></li>
+<li>In the terminal window type <code>csrutil disable</code> and type your password when prompted</li>
+<li>Wait for <code>Successfully disabled System Integrity Protection</code> to appear, then restart your Mac</li>
+</ul>
+</li>
+<li>
+<p>Modify <code>nvram boot-args</code></p>
+<ul>
+<li>After disabling SIP, log back in to your macOS account</li>
+<li>Press <code>command ⌘</code> + <code>space bar</code> to open Spotlight Search and type in <code>terminal</code></li>
+<li>Open the Terminal app, then copy and paste the following:
+<ul>
+<li><code>sudo nvram boot-args=&quot;amfi_get_out_of_my_way=0x1 ipc_control_port_options=0&quot;</code></li>
+</ul>
+</li>
+<li>If prompted, authenticate with your password </li>
+<li>If it appears that nothing has happened, this is normal</li>
+<li>Restart your Mac</li>
+</ul>
+</li>
+<li>
+<p>Login to Genshin Impact</p>
+<ul>
+<li>Open PlayCover</li>
+<li>Open Genshin Impact and you should be greeted with a login screen</li>
+<li>Log in to your account and complete the captcha as required</li>
+<li><strong>DO NOT ENTER WHEN THE DOOR APPEARS</strong><sup class="footnote-reference"><a href="#1">1</a></sup></li>
+<li>Close the game using <code>command ⌘</code> + <code>Q</code> to avoid accidentally entering the door</li>
+</ul>
+</li>
+<li>
+<p>Re-enable SIP</p>
+<ul>
+<li>Follow the steps in Step 1 to re-enter startup options</li>
+<li>When <code>Utilities</code> appears in the menu bar, click on it and choose <code>Terminal</code></li>
+<li>In the terminal window type <code>csrutil enable</code> and type your password when prompted</li>
+<li>Wait for <code>Successfully enabled System Integrity Protection</code> to appear, then restart your Mac<sup class="footnote-reference"><a href="#2">2</a></sup></li>
+</ul>
+</li>
+<li>
+<p>Open Genshin Impact</p>
+<ul>
+<li>You're done! Enjoy playing Genshin!</li>
+</ul>
+</li>
+</ol>
+<p>If you have tried this and still cannot login, try <code>sudo nvram boot-args=&quot;amfi_get_out_of_my_way=1&quot;</code> as boot-args instead of the ones above. You can also try deleting any items related to your game in Keychain Access (type <code>keychain access</code> in Spotlight Search to open it), as well as enabling jailbreak detection bypass in your app settings. Additional login issues may be solved by clearing app preferences.</p>
+<p>If your app still does not work, you can <a href="https://github.com/PlayCover/PlayCover/issues/new/choose">open an app/game support request</a> if no one else has done so already.</p>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>If you enter the door while SIP is disabled, you will not be able to login to the game when you re-enable SIP afterwards. If you have accidentally entered the door, you can try deleting Genshin related items in Keychain Access (search for <code>genshin</code> and <code>mihoyo</code>), then repeating the troubleshooting process from step 1.</p>
+</div>
+<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+<p>The changes we made with the <code>nvram boot-args</code> command earlier will be disabled when SIP is on, however macOS will remember that we made those changes and will apply them the next time you disable SIP. Fully reverting these changes isn't neccassary for most users, but you can do so by running <code>sudo nvram boot-args=&quot;&quot;</code> in the macOS terminal. </p>
+</div>
+<h6 id="this-information-is-up-to-date-as-of-playcover-202"><a class="header" href="#this-information-is-up-to-date-as-of-playcover-202">This information is up-to-date as of PlayCover <code>2.0.2</code></a></h6>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../getting_started/download_ipa.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../getting_started/migrating.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../getting_started/download_ipa.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../getting_started/migrating.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../prettylink.js"></script>
+
+
+    </body>
+</html>
